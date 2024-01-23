@@ -71,56 +71,7 @@
             </div>
             <div class="container-fluid bg-light">
                 <div class="container px-0">
-                    <nav class="navbar navbar-light navbar-expand-xl">
-                        <a href="index.html" class="navbar-brand" >
-                            <!--<h1 class="text-primary display-4">Sparlex11</h1>-->
-							<img src="img/logo.png" class="logo" style="max-width:25%;"  alt="Your Logo"  >
-                        </a>
-                        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                            <span class="fa fa-bars text-primary"></span>
-                        </button>
-                        <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
-                            <div class="navbar-nav mx-auto border-top">
-                                <a href="index.html" class="nav-item nav-link active">Home</a>
-                                <a href="about.html" class="nav-item nav-link">About</a>
-                              <!--  <a href="service.html" class="nav-item nav-link">Services</a>
-                                <a href="price.html" class="nav-item nav-link">Price</a>-->
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">IEEE Projects</a>
-                                    <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                        <a href="#" class="dropdown-item">Python IEEE Projects</a>
-                                        <a href="#" class="dropdown-item">Java IEEE Projects</a>
-                                        <a href="#" class="dropdown-item">Dotnet IEEE Projects</a>
-                                        <a href="#" class="dropdown-item">Matlab Projects	</a>
-                                      
-                                    </div>
-                                </div>
-								
-								<div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Research Paper</a>
-                                    <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                        <a href="#" class="dropdown-item">Writting & Publishing</a>
-                                      
-                                    </div>
-                                </div>
-								<div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Final Year Projects</a>
-                                    <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                        <a href="#" class="dropdown-item">Android </a>
-                                      <a href="#" class="dropdown-item">Angular JS </a>
-									  <a href="#" class="dropdown-item">Dotnet </a>
-                                    </div>
-                                </div>
-								<a href="#" class="nav-item nav-link">Interships</a>
-								
-                                <a href="#" class="nav-item nav-link">Contact</a>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap pt-xl-0">
-                               <!-- <button class="btn-search btn btn-primary btn-primary-outline-0 rounded-circle btn-lg-square" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>-->
-                                <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4">Enquiry</a>
-                            </div>
-                        </div>
-                    </nav>
+                    <?php include 'menu.php'; ?>
                 </div>
             </div>
         </div>
@@ -158,9 +109,9 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img src="img/ieee-projects-500x500%20(1).webp" class="img-fluid" alt="Image">
+                        <img src="img/banner_20240122_1.png" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
-                            <div class="p-3" style="max-width: 600px;">
+                            <div class="p-3" style="max-width: 900px;">
                                <!-- <h4 class="text-primary text-uppercase mb-3">Spa & Beauty Center</h4>
                                 <h1 class="display-1 text-capitalize text-dark mb-3">Massage Treatment</h1>
                                 <p class="mx-md-5 fs-4 px-4 mb-5 text-dark">Lorem rebum magna dolore amet lorem eirmod magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum</p>-->
@@ -172,9 +123,9 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/slider5.png" class="img-fluid" alt="Image">
+                        <img src="img/get_enquiry_background.png" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
-                            <div class="p-3" style="max-width: 600px;">
+                            <div class="p-3" style="max-width: 900px;">
                                <!-- <h4 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Spa & Beauty Center</h4>
                                 <h1 class="display-1 text-capitalize text-dark mb-3">Facial Treatment</h1>
                                 <p class="mx-md-5 fs-4 px-5 mb-5 text-dark">Lorem rebum magna dolore amet lorem eirmod magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum</p>-->
@@ -186,9 +137,9 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/slider1.jpg" class="img-fluid" alt="Image">
+                        <img src="img/banner_20240122_1.png" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
-                            <div class="p-3" style="max-width: 600px;">
+                            <div class="p-3" style="max-width: 900px;">
                                <!-- <h4 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Spa & Beauty Center</h4>
                                 <h1 class="display-1 text-capitalize text-dark">Cellulite Treatment</h1>
                                 <p class="mx-md-5 fs-4 px-5 mb-5 text-dark">Lorem rebum magna dolore amet lorem eirmod magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum</p>-->
@@ -382,7 +333,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5">
                         <div class="video">
-                            <img src="img/python-1.jpeg" class="img-fluid rounded" alt="">
+                            <img src="img/home_about.jpg" class="img-fluid rounded" alt="">
                             <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
                                 <img src="img/hadoop-1.png" class="img-fluid rounded" alt="">
                             </div>
@@ -396,7 +347,7 @@
                         <h1 class="display-4 mb-4">Projects Corner & FINAL YEAR PROJECTS</h1>
                         <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                         </p>
-                        <div class="row g-4">
+                       <!-- <div class="row g-4">
                             <div class="col-md-6">
                                 <div class="d-flex align-items-center">
                                     <i class="fab fa-gitkraken fa-3x text-primary"></i>
@@ -415,10 +366,14 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         </p>
                         <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+						<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+						<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
                         <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">Explore More</a>
                     </div> 
@@ -1281,60 +1236,7 @@
 
 
         <!-- Footer Start -->
-        <div class="container-fluid footer py-5">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="mb-4 text-white">Newsletter</h4>
-                            <p class="text-white">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in tempor dui, non consectetur enim.</p>
-                            <div class="position-relative mx-auto rounded-pill">
-                                <input class="form-control rounded-pill border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                <button type="button" class="btn btn-primary btn-primary-outline-0 rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Project Services</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Python</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Machine Learning</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Deep Learning</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Artificial Intelligence</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Block chain</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Final Year Projects </a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Events</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">IEEE Projects</h4>
-                           <!-- <p class="text-muted mb-0">Monday: <span class="text-white"> 09:00 am – 10:00 pm</span></p>
-                            <p class="text-muted mb-0">Saturday: <span class="text-white"> 09:00 am – 08:00 pm</span></p>
-                            <p class="text-muted mb-0">Sunday: <span class="text-white"> 09:00 am – 05:00 pm</span></p>-->
-							<a href="#"><i class="fas fa-angle-right me-2"></i> Webapplications</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Interships</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Java</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i>Others</a>
-                            
-                            <h4 class="my-4 text-white">Address</h4>
-                            <p class="mb-0"><i class="fas fa-map-marker-alt text-secondary me-2"></i> 123 ranking street North tower New York, USA</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Follow Us</h4>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Faceboock</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Instagram</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Twitter</a>
-                            <h4 class="my-4 text-white">Contact Us</h4>
-                            <p class="mb-0"><i class="fas fa-envelope text-secondary me-2"></i> info@example.com</p>
-                            <p class="mb-0"><i class="fas fa-phone text-secondary me-2"></i> (+012) 3456 7890 123</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include 'footer.php'; ?>
         <!-- Footer End -->
 
 
