@@ -44,22 +44,7 @@
             <div class="container-fluid topbar d-none d-lg-block">
                 <div class="container px-0">
                     <div class="row align-items-center">
-                        <div class="col-lg-8">
-                            <div class="d-flex flex-wrap">
-                                
-                                <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                                <a href="#" class="text-light"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="d-flex align-items-center justify-content-end">
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
+                           <?php include 'top_navbar.php'; ?>
                     </div>
                 </div>
             </div>
@@ -100,7 +85,7 @@
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">IEEE Projects</a></li>
-                    <li class="breadcrumb-item"><a href="#">matlab Projects</a></li>
+                    <li class="breadcrumb-item active text-white"> matlab Projects </li>
                 </ol>    
             </div>
         </div>
@@ -482,21 +467,16 @@ From the following you can see the Matlab Image Processing Final Year Projects. 
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-4 text-center text-md-start mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Projectscorner.in</a> All right reserved.</span>
                     </div>
                     <div class="col-md-4">
                         <div class="d-flex justify-content-center">
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-instagram"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>
+                            
                         </div>
                     </div>
                     <div class="col-md-4 text-center text-md-end text-white">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="#">Web Solutions</a> 
+                       
+                        Designed By <a class="border-bottom" href="www.s2websolutions.com">Web Solutions</a> 
                     </div>
                 </div>
             </div>

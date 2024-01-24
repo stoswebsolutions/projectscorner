@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Projects Corner - Building dreams to reality</title>
+        <title>About us | Projects Corner</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -44,22 +44,7 @@
             <div class="container-fluid topbar d-none d-lg-block">
                 <div class="container px-0">
                     <div class="row align-items-center">
-                        <div class="col-lg-8">
-                            <div class="d-flex flex-wrap">
-                               <!-- <a href="#" class="me-4 text-light"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>-->
-                                <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i>+91-9392193392</a>
-                                <a href="#" class="text-light"><i class="fas fa-envelope text-primary me-2"></i>projectscorner@gmail.com</a>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="d-flex align-items-center justify-content-end">
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
+                        <?php include 'top_navbar.php'; ?>
                     </div>
                 </div>
             </div>
@@ -98,7 +83,7 @@
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">About Us</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                     
                     <li class="breadcrumb-item active text-white">About Us</li>
                 </ol>    
@@ -113,9 +98,9 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5">
                         <div class="video">
-                            <img src="img/about_us.jpg" class="img-fluid rounded" alt="">
+                            <img src="img/about_page_img.png" class="img-fluid rounded" alt="">
                             <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
-							<!--<img src="img/1705929130894.jpg" class="img-fluid rounded" alt="">-->
+							<img src="img/home_about_img2.png" class="img-fluid rounded" alt="">
                     
                             </div>
                             <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
@@ -126,7 +111,7 @@
                     <div class="col-lg-7">
                         <div>
                             <p class="fs-4 text-uppercase text-primary">About Us</p>
-                            <h1 class="display-4 mb-4">Projects Corner & FINAL YEAR PROJECTS</h1>
+                            <h1 class="display-4 mb-4">Projects Corner - Building dreams to reality</h1>
                             <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                             </p>
                            <!-- <div class="row g-4">
@@ -196,17 +181,17 @@
                     </div>
                     <div class="col-md-4">
                         <div class="d-flex justify-content-center">
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
+                           <!-- <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
                             <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-twitter"></i></a>
                             <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-instagram"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>-->
                         </div>
                     </div>
                     <div class="col-md-4 text-center text-md-end text-white">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="#">Web Solutions</a> 
+                        Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">S2Web Solutions</a> 
                     </div>
                 </div>
             </div>

@@ -1,13 +1,16 @@
 <style>
 	.logo {
 	mix-blend-mode: multiply;
-	max-width:35%;
+  
+  margin-top: -10px; /* margin: 20px was off */
+
+	
 	}
 	</style>
 <nav class="navbar navbar-light navbar-expand-xl">
                         <a href="index.php" class="navbar-brand" >
                             <!--<h1 class="text-primary display-4">Sparlex11</h1>-->
-							<img src="img/logo.png" class="logo"  alt="Your Logo"  >
+							<img src="img/logo.jpeg" class="logo" width="180" height="120" alt="Your Logo"  >
                         </a>
                         <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span class="fa fa-bars text-primary"></span>

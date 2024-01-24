@@ -50,22 +50,7 @@
             <div class="container-fluid topbar d-none d-lg-block">
                 <div class="container px-0">
                     <div class="row align-items-center">
-                        <div class="col-lg-8">
-                            <div class="d-flex flex-wrap">
-                               <!-- <a href="#" class="me-4 text-light"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>-->
-                                <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i>+91-9392193392</a>
-                                <a href="#" class="text-light"><i class="fas fa-envelope text-primary me-2"></i>projectscorner@gmail.com</a>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="d-flex align-items-center justify-content-end">
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
+                        <?php include 'top_navbar.php'; ?>
                     </div>
                 </div>
             </div>
@@ -335,7 +320,7 @@
                         <div class="video">
                             <img src="img/home_about.jpg" class="img-fluid rounded" alt="">
                             <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
-                                <img src="img/hadoop-1.png" class="img-fluid rounded" alt="">
+                                <img src="img/home_about_img2.png" class="img-fluid rounded" alt="">
                             </div>
                             <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=a4mMuu2SOG4" data-bs-target="#videoModal">
                                 <span></span>
@@ -469,7 +454,7 @@
                                 <p>Friday:</p>
                                 <p>CLOSED</p>
                             </div>
-                            <p class="text-dark">Check out seasonal discounts for best offers.</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -1246,21 +1231,16 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-4 text-center text-md-start mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>projectscorner.in</a>, All right reserved.</span>
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>www.projectscorner.in</a> All right reserved.</span>
                     </div>
                     <div class="col-md-4">
                         <div class="d-flex justify-content-center">
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-instagram"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>
+                           
                         </div>
                     </div>
                     <div class="col-md-4 text-center text-md-end text-white">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="#">Web Solutions</a> 
+                        
+                         Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">S2Web Solutions</a> 
                     </div>
                 </div>
             </div>

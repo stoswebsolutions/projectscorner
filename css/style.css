@@ -75,12 +75,14 @@
 }
 
 .btn-primary-outline-0:hover {
-    background: var(--bs-secondary) !important;
+  /*  background: var(--bs-secondary) !important;*/
+  background: #87E9FA !important;
     color: var(--bs-white) !important;
 }
 
 .btn-light-outline-0:hover {
-    background: var(--bs-secondary) !important;
+    /*background: var(--bs-secondary) !important;*/
+	background: #87E9FA !important;
     color: var(--bs-white) !important;
 }
 
@@ -92,7 +94,8 @@
 
 .topbar {
     padding: 10px 0;
-    background: var(--bs-secondary) !important;
+    
+	background: #87E9FA !important;
 }
 
 /*** Topbar End ***/
@@ -134,7 +137,8 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-secondary);
+   /* background: var(--bs-secondary);*/
+   background:#87E9FA;
     color: var(--bs-primary);
 }
 

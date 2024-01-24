@@ -49,14 +49,53 @@
 							<a href="#"><i class="fas fa-angle-right me-2"></i>Java Projects</a>
 							
 							 <a href="#"><i class="fas fa-angle-right me-2"></i>Dotnet Projects</a>
+							 <a href="#"><i class="fas fa-angle-right me-2"></i>About Us</a>
+							 <a href="#"><i class="fas fa-angle-right me-2"></i>Contact Us</a>
                             <!--<a href=""><i class="fas fa-angle-right me-2"></i> Faceboock</a>
                             <a href=""><i class="fas fa-angle-right me-2"></i> Instagram</a>
                             <a href=""><i class="fas fa-angle-right me-2"></i> Twitter</a>-->
-                            <h4 class="my-4 text-white">Contact Us</h4>
+                            <!--<h4 class="my-4 text-white">Contact Us</h4>
                             <p class="mb-0"><i class="fas fa-envelope text-secondary me-2"></i> info@example.com</p>
-                            <p class="mb-0"><i class="fas fa-phone text-secondary me-2"></i> (+012) 3456 7890 123</p>
+                            <p class="mb-0"><i class="fas fa-phone text-secondary me-2"></i> (+012) 3456 7890 123</p>-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+		
+		<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?50426';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+        "enabled": true,
+        "chatButtonSetting": {
+            "backgroundColor": "#4dc247",
+            "ctaText": "",
+            "borderRadius": "25",
+            "marginLeft": "20",
+            "marginBottom": "20",
+            "marginRight": "20",
+            "position": "right"
+        },
+        "brandSetting": {
+            "brandName": "Projectscorner",
+            "brandSubTitle": "Typically replies within a minute",
+            "brandImg": "https://projectscorner.in/images/4b6538a44a1dfdc2b83477cd76dee98e.png",
+            "welcomeText": "Hi there!\nHow can I help you?",
+            "messageText": "Hi",
+            "backgroundColor": "#0a5f54",
+            "ctaText": "Start Chat",
+            "borderRadius": "25",
+            "autoShow": false,
+            "phoneNumber": "+919392193392"
+        }
+    };
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>

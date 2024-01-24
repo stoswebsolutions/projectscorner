@@ -1,3 +1,77 @@
+<?php
+
+// Email configuration 
+$toEmail = 'gallaveera9989@gmail.com'; 
+$fromName = 'Projectscorner'; 
+$formEmail = 'info@projectscorner.com'; 
+ 
+$postData = $statusMsg = $valErr = ''; 
+$status = 'error'; 
+ 
+// If the form is submitted 
+if(isset($_POST['submit'])){ 
+    // Get the submitted form data 
+    $postData = $_POST; 
+    $name = test_input($_POST['name']); 
+    $email = test_input($_POST['email']); 
+	$phone = test_input($_POST['phone']); 
+    $subject =test_input($_POST['subject']); 
+    $message = test_input($_POST['message']); 
+     
+    // Validate form fields 
+    if(empty($name)){ 
+         $valErr .= 'Please enter your name.<br/>'; 
+    } 
+    if(empty($email) || filter_var($email, FILTER_VALIDATE_EMAIL) === false){ 
+        $valErr .= 'Please enter a valid email.<br/>'; 
+    }
+if(empty($phone)){ 
+        $valErr .= 'Please enter mobile.<br/>'; 
+    } 	
+    if(empty($subject)){ 
+        $valErr .= 'Please enter subject.<br/>'; 
+    } 
+    if(empty($message)){ 
+        $valErr .= 'Please enter your message.<br/>'; 
+    } 
+     
+    if(empty($valErr)){ 
+        // Send email notification to the site admin 
+        $subject = 'New contact request submitted'; 
+        $htmlContent = " 
+            <h2>Contact Request Details</h2> 
+            <p><b>Name: </b>".$name."</p> 
+            <p><b>Email: </b>".$email."</p> 
+			<p><b>Mobile: </b>".$phone."</p> 
+            <p><b>Subject: </b>".$subject."</p> 
+            <p><b>Message: </b>".$message."</p> 
+        "; 
+         
+        // Always set content-type when sending HTML email 
+        $headers = "MIME-Version: 1.0" . "\r\n"; 
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n"; 
+        // Header for sender info 
+        $headers .= 'From:'.$fromName.' <'.$formEmail.'>' . "\r\n"; 
+         
+        // Send email 
+        @mail($toEmail, $subject, $htmlContent, $headers); 
+         
+        $status = 'success'; 
+        $statusMsg = '<p style="color:green;font-weight:bold;">Thank you! Your contact request has submitted successfully, we will get back to you soon.</p>'; 
+        $postData = ''; 
+    }else{ 
+        $statusMsg = '<p style="color:red;font-weight:bold;">Please fill all the mandatory fields:</p>'.trim($valErr, '<br/>'); 
+    } 
+}
+function test_input($data) {
+$data = trim($data);
+$data =strip_tags($data);
+$data = stripslashes($data);
+$data = htmlspecialchars($data);
+return $data;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,22 +118,7 @@
             <div class="container-fluid topbar d-none d-lg-block">
                 <div class="container px-0">
                     <div class="row align-items-center">
-                        <div class="col-lg-8">
-                            <div class="d-flex flex-wrap">
-                               
-                                <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i>+91-9392193392</a>
-                                <a href="#" class="text-light"><i class="fas fa-envelope text-primary me-2"></i>projectscorner@gmail.com</a>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="d-flex align-items-center justify-content-end">
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
+                       <?php include 'top_navbar.php'; ?>
                     </div>
                 </div>
             </div>
@@ -114,31 +173,33 @@
                     <div class="col-lg-6">
                         <div class="text-center">
                             <h1 class="display-3 text-white mb-4">Contact Us</h1>
-                          <!--  <p class="text-white fs-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-secondary" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>-->
+					<?php if(!empty($statusMsg)){ ?>
+					<div class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
+					<?php } ?> 
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="contact-form rounded p-5">
-                            <form>
+                            <form action="" method="post" >
                                 <h1 class="display-6 mb-4">Do You have Any Questions?</h1>
                                 <div class="row gx-4 gy-3">
                                     <div class="col-xl-6">
-                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Your First Name">
+                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" name="name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Your  Name" required>
                                     </div>
                                     <div class="col-xl-6">
-                                        <input type="email" class="form-control bg-white border-0 py-3 px-4" placeholder="Your Email">
+                                        <input type="email" class="form-control bg-white border-0 py-3 px-4" name="email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="Your Email" required>
                                     </div>
                                     <div class="col-xl-6">
-                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Your Phone">
+                                        <input type="number" class="form-control bg-white border-0 py-3 px-4" name="phone" value="<?php echo !empty($postData['phone'])?$postData['phone']:''; ?>" maxlength="10" placeholder="Your Phone" required>
                                     </div>
                                     <div class="col-xl-6">
-                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Subject">
+                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" name="subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" placeholder="Subject">
                                     </div>
                                     <div class="col-12">
-                                        <textarea class="form-control bg-white border-0 py-3 px-4" rows="4" cols="10" placeholder="Your Message"></textarea>
+                                        <textarea class="form-control bg-white border-0 py-3 px-4" rows="4" cols="10" name="message" placeholder="Your Message" required><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
                                     </div>
                                     <div class="col-12">
-                                        <button class="btn btn-primary btn-primary-outline-0 w-100 py-3 px-5" type="submit">Submit</button>
+                                        <button class="btn btn-primary btn-primary-outline-0 w-100 py-3 px-5" name="submit" value='submit' type="submit">Submit</button>
                                     </div>
                                 </div>
                             </form>
@@ -217,17 +278,14 @@
                     </div>
                     <div class="col-md-4">
                         <div class="d-flex justify-content-center">
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-instagram"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>
+                           
                         </div>
                     </div>
                     <div class="col-md-4 text-center text-md-end text-white">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="#">Web Solutions</a> 
+                        Designed By <a class="border-bottom" href="http://s2websolutions.com">Web Solutions</a> 
                     </div>
                 </div>
             </div>
