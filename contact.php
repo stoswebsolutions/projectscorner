@@ -1,9 +1,9 @@
 <?php
 
 // Email configuration 
-$toEmail = 'gallaveera9989@gmail.com'; 
-$fromName = 'Projectscorner'; 
-$formEmail = 'info@projectscorner.com'; 
+$toEmail = 'projectscorner@gmail.com';
+$fromName = 'Projectscorner';
+$formEmail = 'info@projectscorner.com';
  
 $postData = $statusMsg = $valErr = ''; 
 $status = 'error'; 
@@ -37,7 +37,7 @@ if(empty($phone)){
      
     if(empty($valErr)){ 
         // Send email notification to the site admin 
-        $subject = 'New contact request submitted'; 
+        //$subject = 'New contact request submitted'; 
         $htmlContent = " 
             <h2>Contact Request Details</h2> 
             <p><b>Name: </b>".$name."</p> 

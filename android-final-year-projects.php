@@ -147,7 +147,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                       Designed By <a class="border-bottom" href="www.s2websolutions">Web Solutions</a> 
+                       Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">Web Solutions</a> 
                     </div>
                 </div>
             </div>

@@ -145,7 +145,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                     </div>
                     <div class="col-md-4 text-center text-md-end text-white">
                         
-                        Design By <a class="border-bottom" href="http://s2websolutions.com">S2web solutions</a>
+                        Design By <a class="border-bottom" href="https://s2swebsolutions.com/">S2web solutions</a>
                     </div>
                 </div>
             </div>

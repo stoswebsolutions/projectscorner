@@ -476,7 +476,7 @@ From the following you can see the Matlab Image Processing Final Year Projects. 
                     </div>
                     <div class="col-md-4 text-center text-md-end text-white">
                        
-                        Designed By <a class="border-bottom" href="www.s2websolutions.com">Web Solutions</a> 
+                        Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">Web Solutions</a> 
                     </div>
                 </div>
             </div>

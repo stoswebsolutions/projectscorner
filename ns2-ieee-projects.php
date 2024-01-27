@@ -146,7 +146,7 @@ Explore the forefront of wireless technology with our WSN (Wireless Sensor Netwo
                     </div>
                     <div class="col-md-4 text-center text-md-end text-white">
                         
-                        Designed By <a class="border-bottom" href="www.s2websolutions.com">s2web Solutions</a> 
+                        Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">s2web Solutions</a> 
                     </div>
                 </div>
             </div>

@@ -1432,7 +1432,7 @@ The following are the list of Latest Final Year Java IEEE Projects. Students can
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                       Designed By <a class="border-bottom" href="www.s2websolutions.com">s2web Solutions</a> 
+                       Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">s2web Solutions</a> 
                     </div>
                 </div>
             </div>

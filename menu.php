@@ -1,7 +1,6 @@
 <style>
 	.logo {
 	mix-blend-mode: multiply;
-  
   margin-top: -10px; /* margin: 20px was off */
 
 	
@@ -54,7 +53,7 @@
                             </div>
                             <div class="d-flex align-items-center flex-nowrap pt-xl-0">
                                <!-- <button class="btn-search btn btn-primary btn-primary-outline-0 rounded-circle btn-lg-square" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>-->
-                                <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4">Enquiry</a>
+                                <a href="contact.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4">Enquiry</a>
                             </div>
                         </div>
                     </nav>

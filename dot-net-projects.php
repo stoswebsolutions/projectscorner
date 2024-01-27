@@ -1193,7 +1193,7 @@ Explore cutting-edge Cloud Computing based IEEE Projects in .NET at JP INFOTECH.
                     </div>
                     <div class="col-md-4 text-center text-md-end text-white">
                       
-                        Designed By <a class="border-bottom" href="www.s2websolutions.com">s2Web Solutions</a> 
+                        Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">s2Web Solutions</a> 
                     </div>
                 </div>
             </div>
