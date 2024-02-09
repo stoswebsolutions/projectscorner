@@ -2,8 +2,10 @@
 
 // Email configuration 
 $toEmail = 'stoswebsolutions@gmail.com';
+
 $fromName = 'Projectscorner';
 $formEmail = 'swamy@s2swebsolutions.com';
+
 
 $postData = $statusMsg = $valErr = ''; 
 $status = 'error'; 
