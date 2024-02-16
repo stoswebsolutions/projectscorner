@@ -28,6 +28,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="project.css" rel="stylesheet">
     </head>
 
     <body>
@@ -79,7 +80,7 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid reserach-bg py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">Research</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -88,7 +89,7 @@
                     
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
         

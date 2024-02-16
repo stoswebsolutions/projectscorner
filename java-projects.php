@@ -28,6 +28,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="project.css" rel="stylesheet">
     </head>
 
     <body>
@@ -79,7 +80,7 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid project-bg py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">Java Projects</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -88,7 +89,7 @@
                     <li class="breadcrumb-item active text-white">Java Projects</li>
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
         
@@ -97,21 +98,20 @@
             <div class="container py-5">
                 <div class="mx-auto text-center mb-5" style="max-width: 800px;">
                     <!--<p class="fs-4 text-uppercase text-center text-primary">Our Service</p>-->
-                    <h1 class="display-3"> Java Final Year IEEE Projects for Computer Science, CSE, IT, MCA</h1>
+                    <h3 class="display-3"> Java Final Year IEEE Projects for Computer Science, CSE, IT, MCA</h3>
                 </div>
                 <div class="row g-4">
                     
 					 <div>
                             
                            
-				<p class="mb-4">JP INFOTECH is pioneer is developing Java Final Year IEEE Projects for CSE, IT, MCA students. JP INFOTECH offers both readymade Projects and customized projects for Final Year projects for CSE. Java Projects are developed using Netbeans IDE and few are with Eclipse IDE and Database as MYSQL. Java IEEE Projects are available in all major Computer Science domains such as Cloud Computing, Data Mining, Machine Learning, NLP, Secure Computing, Network Security, Artificial Intelligence (AI), Internet of things (IoT), Web Services etc. JP INFOTECH provides Final Year Projects for CSE, Engineering, IT, B.E., B.Tech., M.E., M.Tech., M.Phil., M.S., M.Sc., MCA, B.Sc., BCA, Diploma Projects.
+				<p class="mb-4">Projects corner is pioneer is developing Java Final Year IEEE Projects for CSE, IT, MCA students. projectscorner offers both readymade Projects and customized projects for Final Year projects for CSE. Java Projects are developed using Netbeans IDE and few are with Eclipse IDE and Database as MYSQL. Java IEEE Projects are available in all major Computer Science domains such as Cloud Computing, Data Mining, Machine Learning, NLP, Secure Computing, Network Security, Artificial Intelligence (AI), Internet of things (IoT), Web Services etc. projectscorner provides Final Year Projects for CSE, Engineering, IT, B.E., B.Tech., M.E., M.Tech., M.Phil., M.S., M.Sc., MCA, B.Sc., BCA, Diploma Projects.</p>
 
-The following are the list of Latest Final Year Java IEEE Projects. Students can click the required project title and see the details such as the Project Base Paper Abstract, with Output Video of the project and Software, Hardware requirements with the Reference of the IEEE Base Paper. If the student is interested to purchase any of the project, they can just click the Buy Link and purchase it in Online easily. In case if the Buy link is not available for any of the project, then they can email to us (or) Whatsapp with the project title, so we can send the details regarding it.
+                <p class="mb-4">The following are the list of Latest Final Year Java IEEE Projects. Students can click the required project title and see the details such as the Project Base Paper Abstract, with Output Video of the project and Software, Hardware requirements with the Reference of the IEEE Base Paper. If the student is interested to purchase any of the project, they can just click the Buy Link and purchase it in Online easily. In case if the Buy link is not available for any of the project, then they can email to us (or) Whatsapp with the project title, so we can send the details regarding it.
 				</p>
                             
                          
-			<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			</p>
+			
 			<h2 style="text-align: center;"><strong><span style="font-size:17pt;">Java IEEE Final Year Projects 2022 &ndash; 2023</span></strong></h2>
 <p><a href="https://jpinfotech.org/wp-content/uploads/2023/04/Java-IEEE-Final-Year-Project-titles-2022-2023.pdf"><span style="color:#ffffff;background-color:#32373c;font-size:14.5pt;">Click here to Download Latest Java IEEE Project Titles 2022 &ndash; 2023 (PDF)</span></a></p>
 <div align="left">
@@ -1395,7 +1395,7 @@ The following are the list of Latest Final Year Java IEEE Projects. Students can
     </table>
 </div>
 <h3><strong><span style="font-size:13pt;">Final Year Project for CSE</span></strong></h3>
-<p style="text-align: justify;"><span style="color:#606060;font-size:11.5pt;">Projects title 2022 &ndash; 2023, 2021 in PDF format. Engineering students, MCA, MSC Final year students time to do Final year IEEE Projects IEEE Papers for 2022, JP Infotech is IEEE Projects Center in Pondicherry, India. We provide readymade Final Year Projects, IEEE Projects for CSE 2023, IEEE Projects for IT 2022, IEEE Projects for MCA present academic year 2023.</span></p>
+<p style="text-align: justify;"><span style="color:#606060;font-size:11.5pt;">Projects title 2022 &ndash; 2023, 2021 in PDF format. Engineering students, MCA, MSC Final year students time to do Final year IEEE Projects IEEE Papers for 2022, Project Corner is IEEE Projects Center in Telangana, India. We provide readymade Final Year Projects, IEEE Projects for CSE 2023, IEEE Projects for IT 2022, IEEE Projects for MCA present academic year 2023.</span></p>
 <p><br></p>
 <p><br></p>
 			

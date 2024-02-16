@@ -28,6 +28,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="project.css" rel="stylesheet">
     </head>
 
     <body>
@@ -79,7 +80,7 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid project-bg py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">Python Projects</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -88,7 +89,7 @@
                     <li class="breadcrumb-item active text-white">Python Projects</li>
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
         
@@ -104,15 +105,13 @@
 					 <div>
                             <p class="fs-4 text-uppercase text-primary">Pyhton</p>
                            
-				<p class="mb-4">Welcome to  Python IEEE Projects hub, where we bridge the gap between academia and industry by offering a diverse range of projects aligned with IEEE base paper. If you’re a student or researcher seeking to explore cutting-edge Python projects that adhere to industry-leading standards, you’ve come to the right place.
-
-				From the following you can see the Python IEEE Final Year Projects 2023 – 2024 on Machine Learning (ML), Deep Learning, Artificial Intelligence (AI), NLP etc.. If you click the project title, you can see the details of the project with the output Video of it. If you wish to purchase a project, then you can purchase it through the Buy Link given. In case if the Buy Link is not available (or) if you face any problem in purchasing through Buy link, then you can email us the project title (or) whatsapp the project title, so we can send the details of the project with the payment modes of it. If you have any other specific requirements also you can mention us with the details. We develop customized projects too according to the possibilities.
+				<p class="mb-4" style="color:black">Welcome to  Python IEEE Projects hub, where we bridge the gap between academia and industry by offering a diverse range of projects aligned with IEEE base paper. If you’re a student or researcher seeking to explore cutting-edge Python projects that adhere to industry-leading standards, you’ve come to the right place.</p>
+  
+                <p class="mb-3">	From the following you can see the Python IEEE Final Year Projects 2023 – 2024 on Machine Learning (ML), Deep Learning, Artificial Intelligence (AI), NLP etc.. If you click the project title, you can see the details of the project with the output Video of it. If you wish to purchase a project, then you can purchase it through the Buy Link given. In case if the Buy Link is not available (or) if you face any problem in purchasing through Buy link, then you can email us the project title (or) whatsapp the project title, so we can send the details of the project with the payment modes of it. If you have any other specific requirements also you can mention us with the details. We develop customized projects too according to the possibilities.
 				</p>
                             
                          
-			<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			</p>
-							<div align="left">
+						<div align="left">
     <table style="border:none;border-collapse:collapse;">
         <tbody>
             <tr>

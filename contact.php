@@ -102,6 +102,7 @@ return $data;
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="project.css" rel="stylesheet">
     </head>
 
     <body>
@@ -153,7 +154,7 @@ return $data;
 
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid contact-bg py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">Contact Us</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -162,41 +163,43 @@ return $data;
                     <li class="breadcrumb-item active text-white">Contact</li>
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
         
         <!-- Contact Start -->
-        <div class="container-fluid contact py-5" style="background: var(--bs-primary);">
+        <div class="container-fluid contact py-5" >
             <div class="container pt-5">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-6">
                         <div class="text-center">
-                            <h1 class="display-3 text-white mb-4">Contact Us</h1>
+                              <h1 class="display-3  mb-4">Contact Us</h1>
+                            <img src="img/contactus.jpg" width="500" class="rounded" alt="image">
+                          
 					<?php if(!empty($statusMsg)){ ?>
 					<div class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
 					<?php } ?> 
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="contact-form rounded p-5">
+                    <div class="col-lg-6 ">
+                        <div class="contact-form  shadow border-black  rounded p-5 ">
                             <form action="" method="post" >
                                 <h1 class="display-6 mb-4">Do You have Any Questions?</h1>
                                 <div class="row gx-4 gy-3">
                                     <div class="col-xl-6">
-                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" name="name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Your  Name" required>
+                                        <input type="text" class="form-control bg-white border-black py-3 px-4" name="name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Your  Name" required>
                                     </div>
                                     <div class="col-xl-6">
-                                        <input type="email" class="form-control bg-white border-0 py-3 px-4" name="email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="Your Email" required>
+                                        <input type="email" class="form-control bg-white   border-black  py-3 px-4" name="email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" placeholder="Your Email" required>
                                     </div>
                                     <div class="col-xl-6">
-                                        <input type="number" class="form-control bg-white border-0 py-3 px-4" name="phone" value="<?php echo !empty($postData['phone'])?$postData['phone']:''; ?>" maxlength="10" placeholder="Your Phone" required>
+                                        <input type="number" class="form-control bg-white  border-black   py-3 px-4" name="phone" value="<?php echo !empty($postData['phone'])?$postData['phone']:''; ?>" maxlength="10" placeholder="Your Phone" required>
                                     </div>
                                     <div class="col-xl-6">
-                                        <input type="text" class="form-control bg-white border-0 py-3 px-4" name="subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" placeholder="Subject">
+                                        <input type="text" class="form-control bg-white    border-black  py-3 px-4" name="subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" placeholder="Subject">
                                     </div>
                                     <div class="col-12">
-                                        <textarea class="form-control bg-white border-0 py-3 px-4" rows="4" cols="10" name="message" placeholder="Your Message" required><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
+                                        <textarea class="form-control bg-white  border-black py-3 px-4" rows="4" cols="10" name="message" placeholder="Your Message" required><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
                                     </div>
                                     <div class="col-12">
                                         <button class="btn btn-primary btn-primary-outline-0 w-100 py-3 px-5" name="submit" value='submit' type="submit">Submit</button>

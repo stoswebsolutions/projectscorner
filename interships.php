@@ -79,7 +79,7 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid bg-breadcrumb py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">Interships</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -88,7 +88,7 @@
                     
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
         

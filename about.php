@@ -28,6 +28,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="about.css" rel="stylesheet">
     </head>
 
     <body>
@@ -79,7 +80,7 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid about-bg py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">About Us</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -88,7 +89,7 @@
                     <li class="breadcrumb-item active text-white">About Us</li>
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
         
@@ -112,8 +113,10 @@
                         <div>
                             <p class="fs-4 text-uppercase text-primary">About Us</p>
                             <h1 class="display-4 mb-4">Projects Corner - Building dreams to reality</h1>
-                            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                            </p>
+                            <p class="mb-4">Projects corner is specialized in delivering customized IEEE projects of various technologies (python,Java,Dot Net, 
+Hadoop, NS2,PHP) tailored to meet your unique requirements and objectives. We understand that every project is 
+different, and our team of experienced engineers and developers is dedicated to crafting solutions that align 
+perfectly with your vision and goals. </p>
                            <!-- <div class="row g-4">
                                 <div class="col-md-6">
                                     <div class="d-flex align-items-center">
@@ -134,16 +137,69 @@
                                     </div>
                                 </div>
                             </div>-->
-                            <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p class="my-4">We have experience 10+ years in the industry connected with the lot Teaching and Research experts working in 
+various prestigious Institutions. We have dedicated professionals team working with technology and updating with 
+trends delivering students a quality project. 
                             </p>
-                            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
+                            <p class="mb-4">Customization of Projects is our Main Motto</p>
                         </div>
                         <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">Explore More</a>
                     </div> 
                 </div>
             </div>
         </div>
+        
+        <div class=" text-center" style="text-align:center">
+    <h2 class="mb-3">Why Customization Matters</h2>
+   
+    <p class="m-5">Already available solutions often provide problems and have limitations, leaving gaps in functionality and flexibility. 
+      Customization offers a distinct advantage by allowing you to tailor every aspect of the solution to your unique 
+      requirements. Whether you require advanced data analysis algorithms, customized machine learning models, or 
+      specialized roboƟcs applications, customization ensures that your project aligns seamlessly with your objectives and 
+      workflows. </p>
+    
+      </div>
+      <div class="text-center">
+        <h2 class="">Our Customization Process</h2>
+    
+<div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                     <img src="img/custom-process.png" class="rounded " width="600"  alt="">
+                     </div>
+                   
+                    <div class="col-lg-6">
+                        <div class="process" >
+                <h5 align="left">Requirement Gathering:</h5>
+                <p align="left" style="font-size:medium">We start by understanding your organization's goals, challenges, and specific project 
+requirements through comprehensive discussions and analysis. </p>
+<h5 align="left"> Custom Solution Design:</h5>
+                <p align="left" style="font-size:medium">Based on your requirements, our team of experts designs a customized solution 
+architecture that addresses your unique needs while leveraging the power of technologies.  </p>
+<h5 align="left">Development:</h5>
+                <p align="left" style="font-size:medium">We follow a development process, providing regular updates and opportunities for feedback to 
+ensure that the solution evolves in alignment with your expectations. </p>
+<h5 align="left">Integration and Testing:</h5>
+                <p align="left" style="font-size:medium">Once the solution is developed, we rigorously test it to ensure reliability, scalability, and 
+performance under real-world conditions.
+ </p>
+<h5 align="left"> Deployment and Support:</h5>
+                <p align="left" style="font-size:medium">We assist you in deploying the customized solution seamlessly into your 
+environment and provide ongoing support and maintenance to ensure optimal performance and user satisfaction.  </p>
+                           
+        
+            
+</div>
+</div>
+
+
+
+
+
+</div>
+        </div>
+
+
         <!-- Modal Video -->
         <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">

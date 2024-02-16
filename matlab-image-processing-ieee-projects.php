@@ -28,6 +28,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="project.css" rel="stylesheet">
     </head>
 
     <body>
@@ -79,7 +80,7 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid project-bg py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">Matlab Digital Image Processing Projects</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -88,7 +89,7 @@
                     <li class="breadcrumb-item active text-white"> matlab Projects </li>
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
         
@@ -111,8 +112,7 @@ From the following you can see the Matlab Image Processing Final Year Projects. 
 				</p>
                             
                          
-			<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			</p>
+			
 			<div align="left">
     <table style="border:none;border-collapse:collapse;">
         <tbody>

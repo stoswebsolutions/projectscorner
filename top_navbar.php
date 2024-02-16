@@ -1,8 +1,8 @@
 			<div class="col-lg-8">
                             <div class="d-flex flex-wrap">
                                <!-- <a href="#" class="me-4 text-light"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>-->
-                                <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i>+91-9392193392</a>
-                                <a href="#" class="text-light"><i class="fas fa-envelope text-primary me-2"></i>projectscorner@gmail.com</a>
+                                <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt  me-2"></i>+91-9392193392</a>
+                                <a href="#" class="text-light"><i class="fas fa-envelope  me-2"></i>projectscorner@gmail.com</a>
                             </div>
 
                         </div>

@@ -28,6 +28,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="project.css" rel="stylesheet">
     </head>
 
     <body>
@@ -80,7 +81,7 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid project-bg py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">IEEE Projects</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -89,7 +90,7 @@
                     
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
         
@@ -107,8 +108,8 @@
                                 <div class="col-8">
                                     <div class="services-content text-end">
                                         <h3>Python IEEE Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View More..</a>
+                                        <p align="left">Welcome to Python IEEE Projects hub, where we bridge the gap between academia and industry by offering a diverse range of projects aligned with IEEE base paper.</p>
+                                        <a href="python-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View More..</a>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -130,8 +131,8 @@
                                 <div class="col-8">
                                     <div class="services-content text-start">
                                         <h3>Java IEEE Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View More..</a>
+                                        <p>Projectscorner is pioneer is developing Java Final Year IEEE Projects for CSE, IT, MCA students. Projectscorner offers both readymade Projects and customized projects for Final Year projects for CSE.</p>
+                                        <a href="java-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View More..</a>
                                     </div>
                                 </div>
                             </div>
@@ -142,9 +143,9 @@
                             <div class="row align-items-center">
                                 <div class="col-8">
                                     <div class="services-content text-end">
-                                        <h3>Dotnet IEEE projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View more..</a>
+                                        <h3 >Dotnet IEEE projects</h3>
+                                        <p align="left">The .NET framework is a powerful tool for building a wide range of software applications, from web apps to desktop programs and mobile apps. It’s versatile, robust, and widely used in industry, making it an excellent choice for your final year project.</p>
+                                        <a href="dot-net-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View more..</a>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -166,8 +167,8 @@
                                 <div class="col-8">
                                     <div class="services-content text-start">
                                         <h3>MATLAB Image processing IEEE Proejcts</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View more..</a>
+                                        <p>Image Processing Projects with Matlab for Final Year Students From the following you can see the Matlab Image Processing Final Year Projects. If you click the project title, you can see the details of the project with the output Video of it.</p>
+                                        <a href="matlab-image-processing-ieee-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View more..</a>
                                     </div>
                                 </div>
                             </div>
@@ -202,8 +203,8 @@
                                 <div class="col-8">
                                     <div class="services-content text-start">
                                         <h3>NS2 IEEE Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View more..</a>
+                                        <p>NS2 (Network Simulator 2) is an open-source simulation tool that is widely used for research and education in the field of computer networks. It allows users to simulate various network protocols and evaluate their performance in different scenarios.</p>
+                                        <a href="ns2-ieee-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">View more..</a>
                                     </div>
                                 </div>
                             </div>
@@ -215,13 +216,13 @@
                                 <div class="col-8">
                                     <div class="services-content text-end">
                                         <h3>PHP Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                                        <p>Are you a final year student or a beginner looking for PHP projects with complete source code? You’ve come to the right place! Our Php Final Year Projects portal offers a wide array of PHP projects tailored for students and beginners.</p>
                                         <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Make Order</a>
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                        <img src="img/python-1.jpeg" class="img-fluid rounded" alt="">
+                                        <img src="img/php-1.png" class="img-fluid rounded" alt="">
                                     </div>
                                 </div>
                             </div>

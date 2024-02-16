@@ -28,6 +28,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="project.css" rel="stylesheet">
     </head>
 
     <body>
@@ -79,7 +80,7 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb py-5">
+        <!-- <div class="container-fluid project-bg py-5">
             <div class="container text-center py-5">
                 <h3 class="text-white display-3 mb-4">Dot Net IEEE Projects</h1>
                 <ol class="breadcrumb justify-content-center mb-0">
@@ -88,7 +89,7 @@
                     <li class="breadcrumb-item active text-white">Dot Net Projects</li>
                 </ol>    
             </div>
-        </div>
+        </div> -->
         <!-- Header End -->
 
         
@@ -111,12 +112,11 @@ The .NET framework is a powerful tool for building a wide range of software appl
 From the following you can see the .NET IEEE Final Year Projects using ASP.Net, C#.net & SQL Server. All the projects which are mentioned here are Readymade projects which are readily available to deliver. If you wish to purchase a project, then you can email us the project title (or) whatsapp the project title, so we can send the details of the project with the payment modes of it.
 
 <p>Cloud Computing based IEEE Projects in .NET</p><br>
-Explore cutting-edge Cloud Computing based IEEE Projects in .NET at JP INFOTECH. Our meticulously crafted projects harness the power of cloud technology, offering innovative solutions and insights. Whether you’re a student, researcher, or industry professional, our curated selection of IEEE projects in the .NET framework caters to various interests and applications. These projects are designed to align with the latest industry trends and academic standards, making them ideal for enhancing your knowledge and skills. With JP INFOTECH, you’re one step closer to mastering cloud computing and staying at the forefront of technological advancements using C#.net, ASP.net and SQL Server.
+Explore cutting-edge Cloud Computing based IEEE Projects in .NET at Projects Corner. Our meticulously crafted projects harness the power of cloud technology, offering innovative solutions and insights. Whether you’re a student, researcher, or industry professional, our curated selection of IEEE projects in the .NET framework caters to various interests and applications. These projects are designed to align with the latest industry trends and academic standards, making them ideal for enhancing your knowledge and skills. With Projects corner, you’re one step closer to mastering cloud computing and staying at the forefront of technological advancements using C#.net, ASP.net and SQL Server.
 				</p>
                             
                          
-			<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			</p>
+			
 			
                <div align="left">
     <table style="border:none;border-collapse:collapse;">
