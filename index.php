@@ -94,7 +94,7 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img src="img/banner_20240122_1.png" class="img-fluid" alt="Image">
+                        <img src="img/carousel-img.jpg" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
                             <div class="p-3" style="max-width: 900px;">
                                <!-- <h4 class="text-primary text-uppercase mb-3">Spa & Beauty Center</h4>
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/get_enquiry_background.png" class="img-fluid" alt="Image">
+                        <img src="img/carousel-img1-jpg.jpg" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
                             <div class="p-3" style="max-width: 900px;">
                                <!-- <h4 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Spa & Beauty Center</h4>
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/banner_20240122_1.png" class="img-fluid" alt="Image">
+                        <img src="img/carousel-img3.jpg" class="img-fluid" alt="Image">
                         <div class="carousel-caption">
                             <div class="p-3" style="max-width: 900px;">
                                <!-- <h4 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Spa & Beauty Center</h4>
@@ -163,8 +163,8 @@
                                 <div class="col-8">
                                     <div class="services-content text-end">
                                         <h3>Python IEEE Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
+                                        <p align="left">Welcome to Python IEEE Projects hub, where we bridge the gap between academia and industry by offering a diverse range of projects aligned with IEEE base paper.</p>
+                                        <a href="python-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -186,8 +186,8 @@
                                 <div class="col-8">
                                     <div class="services-content text-start">
                                         <h3>Java IEEE Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
+                                        <p align='left'>Projectscorner is pioneer is developing Java Final Year IEEE Projects for CSE, IT, MCA students. Projectscorner offers both readymade Projects and customized projects for Final Year projects for CSE.</p>
+                                        <a href="java-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
                                     </div>
                                 </div>
                             </div>
@@ -199,8 +199,8 @@
                                 <div class="col-8">
                                     <div class="services-content text-end">
                                         <h3>Dotnet IEEE projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More ..</a>
+                                        <p align="left">The .NET framework is a powerful tool for building a wide range of software applications, from web apps to desktop programs and mobile apps. It’s versatile, robust, and widely used in industry, making it an excellent choice for your final year project.</p>
+                                        <a href="dot-net-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More ..</a>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -222,8 +222,8 @@
                                 <div class="col-8">
                                     <div class="services-content text-start">
                                         <h3>Matlab Digital Image Processing Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
+                                        <p align="left">Image Processing Projects with Matlab for Final Year Students From the following you can see the Matlab Image Processing Final Year Projects. If you click the project title, you can see the details of the project with the output Video of it.</p>
+                                        <a href="matlab-image-processing-ieee-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
                                     </div>
                                 </div>
                             </div>
@@ -235,7 +235,7 @@
                                 <div class="col-8">
                                     <div class="services-content text-end">
                                         <h3>Hadoop IEEE Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                                        <p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
                                         <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
                                     </div>
                                 </div>
@@ -258,8 +258,8 @@
                                 <div class="col-8">
                                     <div class="services-content text-start">
                                         <h3>NS2 IEEE Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
+                                        <p>NS2 (Network Simulator 2) is an open-source simulation tool that is widely used for research and education in the field of computer networks. It allows users to simulate various network protocols and evaluate their performance in different scenarios. </p>
+                                        <a href="ns2-ieee-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@
                                     <div class="services-content text-end">
                                         <h3>Python IEEE Projects</h3>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
+                                        <a href="python-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
                                     </div>
                                 </div>
                                 <div class="col-4">
@@ -294,7 +294,7 @@
                                 <div class="col-8">
                                     <div class="services-content text-start">
                                         <h3>PHP Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                                        <p>Are you a final year student or a beginner looking for PHP projects with complete source code? You’ve come to the right place! Our Php Final Year Projects portal offers a wide array of PHP projects tailored for students and beginners.</p>
                                         <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Make Order</a>
                                     </div>
                                 </div>
@@ -330,8 +330,10 @@
                     <div class="col-lg-7">
                         <p class="fs-4 text-uppercase text-primary">About Us</p>
                         <h1 class="display-4 mb-4">Projects Corner & FINAL YEAR PROJECTS</h1>
-                        <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                        </p>
+                        <p class="mb-4">Projects corner is specialized in delivering customized IEEE projects of various technologies (python,Java,Dot Net, 
+Hadoop, NS2,PHP) tailored to meet your unique requirements and objectives. We understand that every project is 
+different, and our team of experienced engineers and developers is dedicated to crafting solutions that align 
+perfectly with your vision and goals. </p>
                        <!-- <div class="row g-4">
                             <div class="col-md-6">
                                 <div class="d-flex align-items-center">
@@ -352,14 +354,15 @@
                                 </div>
                             </div>
                         </div>-->
-                        <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        <p class="my-4">We have experience 10+ years in the industry connected with the lot Teaching and Research experts working in 
+various prestigious InsƟtuƟons. We have dedicated professionals team working with technology and updating with 
+trends delivering students a quality project. 
+</p>
+                        <p class="mb-4">Customization of Projects is our Main Motto</p>
+						<!-- <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
 						<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
-						<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
+                        </p> -->
                         <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">Explore More</a>
                     </div> 
                 </div>
@@ -388,11 +391,11 @@
 
         <!-- Appointment Start -->
         <div class="container-fluid appointment py-5">
-            <div class="container py-5">
+            <!-- <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="appointment-form p-5">
-                            <p class="fs-4 text-uppercase text-primary">Get In Touch</p>
+                            <p class="fs-4 text-uppercase text-white">Get In Touch</p>
                             <h1 class="display-4 mb-4 text-white">Get Enquiry</h1>
                             <form>
                                 <div class="row gy-3 gx-4">
@@ -458,7 +461,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Counter Start -->
             <div class="container-fluid counter-section">
                 <div class="container py-5">
@@ -1060,7 +1063,7 @@
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5" style="max-width: 800px;">
                     <p class="fs-4 text-uppercase text-primary">Testimonial</p>
-                    <h1 class="display-4 mb-4 text-white">What Our Students Say!</h1>
+                    <h1 class="display-4 mb-4 ">What Our Students Say!</h1>
                 </div>
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item rounded p-4">
@@ -1068,11 +1071,11 @@
                             <div class="col-4">
                                 <div class="d-flex flex-column mx-auto">
                                     <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
-                                        <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle" alt="">
+                                        <img src="img/arun-student.jpg" class="img-fluid rounded-circle" alt="">
                                     </div>
                                     <div class="text-center">
-                                        <h4 class="mb-2 text-primary">Person Name</h4>
-                                        <p class="m-0 text-white">Profession</p>
+                                        <h4 class="mb-2 text-light">Arun</h4>
+                                        <p class="m-0 text-light">Christ College of Engineering</p>
                                     </div>
                                 </div>
                             </div>
@@ -1082,13 +1085,13 @@
                                 </div>
                                 <div class="testimonial-content">
                                     <div class="d-flex mb-4">
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star rating"></i>
+                                        <i class="fas fa-star rating"></i>
+                                        <i class="fas fa-star rating"></i>
+                                        <i class="fas fa-star rating"></i>
                                         <i class="fas fa-star"></i>
                                     </div>
-                                    <p class="fs-5 mb-0 text-white">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                    <p class="fs-5 mb-0 text-white">I Completed my Final Year B.Tech. project in Projrcts Corner. By seeing the Youtube Video, I approached them. They provided me the support for my project good. I also published my Paper in the International Journal. Thank you.
                                     </p>
                                 </div>
                             </div>
@@ -1099,11 +1102,11 @@
                             <div class="col-4">
                                 <div class="d-flex flex-column mx-auto">
                                     <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
-                                        <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle" alt="">
+                                        <img src="img/priya-student.jpg" class="img-fluid rounded-circle" alt="">
                                     </div>
                                     <div class="text-center">
-                                        <h4 class="mb-2 text-primary">Person Name</h4>
-                                        <p class="m-0 text-white">Profession</p>
+                                        <h4 class="mb-2 text-light">Priya</h4>
+                                        <p class="m-0 text-light">Theivanai Ammal College for Women</p>
                                     </div>
                                 </div>
                             </div>
@@ -1113,13 +1116,13 @@
                                 </div>
                                 <div class="testimonial-content">
                                     <div class="d-flex mb-4">
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star rating"></i>
+                                        <i class="fas fa-star rating"></i>
+                                        <i class="fas fa-star rating"></i>
+                                        <i class="fas fa-star rating"></i>
                                         <i class="fas fa-star"></i>
                                     </div>
-                                    <p class="fs-5 mb-0 text-white">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                    <p class="fs-5 mb-0 text-white">I and my few friends approached M.Phil. Project in Projects Corner. They provided us complete support with enhancement and thesis also Scopus Publication of our project. Thank you
                                     </p>
                                 </div>
                             </div>
@@ -1130,11 +1133,11 @@
                             <div class="col-4">
                                 <div class="d-flex flex-column mx-auto">
                                     <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
-                                        <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle" alt="">
+                                        <img src="img/suganthi-student.jpg" class="img-fluid rounded-circle" alt="">
                                     </div>
                                     <div class="text-center">
-                                        <h4 class="mb-2 text-primary">Person Name</h4>
-                                        <p class="m-0 text-white">Profession</p>
+                                        <h4 class="mb-2 text-light">Suganthi</h4>
+                                        <p class="m-0 text-light">Sri Manakula Vinayagar Engineering College</p>
                                     </div>
                                 </div>
                             </div>
@@ -1144,13 +1147,13 @@
                                 </div>
                                 <div class="testimonial-content">
                                     <div class="d-flex mb-4">
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
-                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star rating"></i>
+                                        <i class="fas fa-star rating"></i>
+                                        <i class="fas fa-star rating"></i>
+                                        <i class="fas fa-star rating"></i>
                                         <i class="fas fa-star"></i>
                                     </div>
-                                    <p class="fs-5 mb-0 text-white">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                    <p class="fs-5 mb-0 text-white">With my Seniors reference I did my Internship MCA project in projectscorner Telangana. They trained me 1 month in .NET technology and now I can develop my project own. Good practical sessions only given clearly, so easy to understand.
                                     </p>
                                 </div>
                             </div>

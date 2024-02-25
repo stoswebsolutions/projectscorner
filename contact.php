@@ -1,12 +1,10 @@
 <?php
 
 // Email configuration 
-$toEmail = 'stoswebsolutions@gmail.com';
-
+$toEmail = 'projectscorner@gmail.com';
 $fromName = 'Projectscorner';
-$formEmail = 'swamy@s2swebsolutions.com';
-
-
+$formEmail = 'info@projectscorner.com';
+ 
 $postData = $statusMsg = $valErr = ''; 
 $status = 'error'; 
  
