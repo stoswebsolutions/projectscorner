@@ -10,6 +10,7 @@
 			        <a href="https://www.facebook.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-facebook-f"></i></a>
 			        <a href="https://twitter.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-twitter"></i></a>
 			        <a href="https://www.instagram.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-instagram"></i></a>
-			        <a href="https://in.linkedin.com/projectscorner" class="btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
+			        <a href="https://in.linkedin.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
+			        <a href="https://youtube.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-youtube"></i></a>
 			    </div>
 			</div>

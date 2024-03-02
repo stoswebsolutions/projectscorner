@@ -1,69 +1,70 @@
 <div class="container-fluid footer py-5">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="mb-4 text-white">Newsletter</h4>
-                            <p class="text-white">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in tempor dui, non consectetur enim.</p>
-                            <div class="position-relative mx-auto rounded-pill">
-                                <input class="form-control rounded-pill border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                <button type="button" class="btn btn-primary btn-primary-outline-0 rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
-                            </div>
-                        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">IEEE Projects</h4>
+                    <a href="ieee-python-projects.php"></i> Python IEEE Projects</a>
+                    <a href="ieee-java-projects.php"></i> Java IEEE Projects</a>
+                    <a href="ieee-dot-net-projects.php"></i> Dotnet IEEE Projects</a>
+                    <a href="ieee-matlab-projects.php"></i> Matlab IEEE Projects</a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Final Year</h4>
+                    <a href="python-final-year-projects.php"></i>Python Projects</a>
+                    <a href="java-final-year-projects.php"></i>Java Projects</a>
+                    <a href="dot-net-final-year-projects.php"></i>Dotnet Projects</a>
+                    <a href="php-final-year-projects.php"></i>PHP Projects</a>
+                    <a href="android-final-year-projects.php"></i>Android Projects</a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Services</h4>
+                    <a href="research.php"></i>Research</a>
+                    <a href="interships.php"></i>Interships</a>
+                    <a href="btech-projects.php"></i>BTech</a>
+                    <a href="mtech-projects.php"></i>MTech</a>
+                    <a href="mca-projects.php"></i>MCA</a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Projectscorner</h4>
+                    <a href="about.php">About</a>
+                    <a href="contact.php">Contact</a>
+                    <a href="sitemap.php">Sitemap</a>
+                    <a href="www.projectscorner.in">projectscorner.in</a>
+                    <a href="www.projectscorner.com">projectscorner.com</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-item">
+                    <img src="images/logobanner.png" class="img-fluid rounded mx-auto d-block w-50" style="background-color: white;">
+                    <div class="d-flex align-items-center justify-content-start">
+                        <a href="#" class="text-white text-center">Karimnagar,</a>
+                        <a href="#" class="text-white text-center">Telangana,</a>
+                        <a href="#" class="text-white text-center">AndhraPradesh.</a>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">IEEE Projects</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Python</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Machine Learning</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Deep Learning</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Artificial Intelligence</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Block chain</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Final Year Projects </a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Events</a>
-                        </div>
+                    <div class="d-flex align-items-center justify-content-start">
+                        <a href="tel:+919392193392" class="me-3 text-white">9392193392</a>
+                        <a href="mailto:projectscorner@gmail.com" class="text-white">projectscorner@gmail.com</a>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Final Year Projects</h4>
-                           <!-- <p class="text-muted mb-0">Monday: <span class="text-white"> 09:00 am – 10:00 pm</span></p>
-                            <p class="text-muted mb-0">Saturday: <span class="text-white"> 09:00 am – 08:00 pm</span></p>
-                            <p class="text-muted mb-0">Sunday: <span class="text-white"> 09:00 am – 05:00 pm</span></p>-->
-							<a href="#"><i class="fas fa-angle-right me-2"></i>Android Projects</a>
-							<a href="#"><i class="fas fa-angle-right me-2"></i>Angular Projects</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i>Java Projects</a>
-							<a href="#"><i class="fas fa-angle-right me-2"></i>Python Projects</a>
-							 <a href="#"><i class="fas fa-angle-right me-2"></i>Dotnet Projects</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i>Interships</a>
-                           
-                            <a href="#"><i class="fas fa-angle-right me-2"></i>Others</a>
-                            
-                           <!-- <h4 class="my-4 text-white">Address</h4>
-                            <p class="mb-0"><i class="fas fa-map-marker-alt text-secondary me-2"></i> 123 ranking street North tower New York, USA</p>-->
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Project Services</h4>
-							<a href="#"><i class="fas fa-angle-right me-2"></i>Python Projects</a>
-							<a href="#"><i class="fas fa-angle-right me-2"></i>Java Projects</a>
-							
-							 <a href="#"><i class="fas fa-angle-right me-2"></i>Dotnet Projects</a>
-							 <a href="#"><i class="fas fa-angle-right me-2"></i>About Us</a>
-							 <a href="#"><i class="fas fa-angle-right me-2"></i>Contact Us</a>
-                            <!--<a href=""><i class="fas fa-angle-right me-2"></i> Faceboock</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Instagram</a>
-                            <a href=""><i class="fas fa-angle-right me-2"></i> Twitter</a>-->
-                            <!--<h4 class="my-4 text-white">Contact Us</h4>
-                            <p class="mb-0"><i class="fas fa-envelope text-secondary me-2"></i> info@example.com</p>
-                            <p class="mb-0"><i class="fas fa-phone text-secondary me-2"></i> (+012) 3456 7890 123</p>-->
-                        </div>
+                    <div class="d-flex align-items-center justify-content-start">
+                        <a href="https://www.facebook.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-instagram"></i></a>
+                        <a href="https://in.linkedin.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://youtube.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-		
-		<script>
+    </div>
+</div>
+<script>
     var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?50426';
     var s = document.createElement('script');
     s.type = 'text/javascript';
@@ -76,8 +77,8 @@
             "ctaText": "",
             "borderRadius": "25",
             "marginLeft": "20",
-            "marginBottom": "20",
-            "marginRight": "20",
+            "marginBottom": "100",
+            "marginRight": "30",
             "position": "right"
         },
         "brandSetting": {
