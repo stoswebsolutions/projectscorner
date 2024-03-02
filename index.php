@@ -282,9 +282,9 @@
     <!-- Services End -->
     <!-- About Start -->
     <div class="container-fluid about py-5">
-        <div class="container py-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
                     <div class="video">
                         <img src="img/home_about.jpg" class="img-fluid rounded" alt="">
                         <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
@@ -295,43 +295,13 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-md-7">
                     <p class="fs-4 text-uppercase text-primary">About Us</p>
-                    <h1 class="display-4 mb-4">Projects Corner & FINAL YEAR PROJECTS</h1>
-                    <p class="mb-4">Projects corner is specialized in delivering customized IEEE projects of various technologies (python,Java,Dot Net,
-                        Hadoop, NS2,PHP) tailored to meet your unique requirements and objectives. We understand that every project is
-                        different, and our team of experienced engineers and developers is dedicated to crafting solutions that align
-                        perfectly with your vision and goals. </p>
-                    <!-- <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center">
-                                    <i class="fab fa-gitkraken fa-3x text-primary"></i>
-                                    <div class="ms-4">
-                                        <h5 class="mb-2">Special Offers</h5>
-                                        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center">
-                                    <i class="fas fa-gift fa-3x text-primary"></i>
-                                    <div class="ms-4">
-                                        <h5 class="mb-2">Special Offers</h5>
-                                        <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>-->
-                    <p class="my-4">We have experience 10+ years in the industry connected with the lot Teaching and Research experts working in
-                        various prestigious InsƟtuƟons. We have dedicated professionals team working with technology and updating with
-                        trends delivering students a quality project.
-                    </p>
-                    <p class="mb-4">Customization of Projects is our Main Motto</p>
-                    <!-- <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
-						<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p> -->
-                    <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">Explore More</a>
+                    <h1 class="display-6 mb-4">Projects Corner<span class="fs-6 text-uppercase text-primary">- Building dreams to reality</span></h1>
+                    <p class="mb-4 justify-content">Projectscorner is a leading provider of academic project solutions, internship programs, and research paper publications. Established with the vision of bridging the gap between academia and industry, we specialize in empowering students with practical skills and experiences essential for their professional growth and success.</p>
+                    <p class="my-4 justify-content">At Projectscorner, our mission is to nurture the next generation of talent by providing hands-on learning opportunities, fostering innovation, and promoting excellence in academic and research endeavors. We are committed to facilitating a dynamic and collaborative environment where students can thrive and make meaningful contributions to their fields of study.</p>
+                    <p class="mb-4 justify-content">At Projectscorner, we are dedicated to empowering students and researchers to reach their full potential and make a positive impact in their respective fields. Whether you are looking for academic project solutions, internship opportunities, or support with research paper publications, we are here to support you every step of the way. Join us in our mission to shape the future of academia and industry through innovation, excellence, and collaboration.</p>
+                    <a href="about.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">Explore More</a>
                 </div>
             </div>
         </div>
@@ -347,7 +317,7 @@
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=a4mMuu2SOG4" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -1028,11 +998,11 @@
                         <div class="col-4">
                             <div class="d-flex flex-column mx-auto">
                                 <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
-                                    <img src="img/arun-student.jpg" class="img-fluid rounded-circle" alt="">
+                                    <img src="img/logo.png" class="img-fluid rounded-circle" alt="">
                                 </div>
                                 <div class="text-center">
-                                    <h4 class="mb-2 text-light">Arun</h4>
-                                    <p class="m-0 text-light">Christ College of Engineering</p>
+                                    <h4 class="mb-2 text-light">Abhinay</h4>
+                                    <p class="m-0 text-light">VGSE</p>
                                 </div>
                             </div>
                         </div>
@@ -1048,8 +1018,7 @@
                                     <i class="fas fa-star rating"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p class="fs-5 mb-0 text-white">I Completed my Final Year B.Tech. project in Projrcts Corner. By seeing the Youtube Video, I approached them. They provided me the support for my project good. I also published my Paper in the International Journal. Thank you.
-                                </p>
+                                <p class="fs-5 mb-0 text-white">Working with Projectscorner on my academic project was a game-changer. Their guidance and support helped me transform my ideas into reality and achieve outstanding results.</p>
                             </div>
                         </div>
                     </div>
@@ -1059,11 +1028,11 @@
                         <div class="col-4">
                             <div class="d-flex flex-column mx-auto">
                                 <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
-                                    <img src="img/priya-student.jpg" class="img-fluid rounded-circle" alt="">
+                                    <img src="img/logo.png" class="img-fluid rounded-circle" alt="">
                                 </div>
                                 <div class="text-center">
-                                    <h4 class="mb-2 text-light">Priya</h4>
-                                    <p class="m-0 text-light">Theivanai Ammal College for Women</p>
+                                    <h4 class="mb-2 text-light">Sneha</h4>
+                                    <p class="m-0 text-light">BITS</p>
                                 </div>
                             </div>
                         </div>
@@ -1079,8 +1048,7 @@
                                     <i class="fas fa-star rating"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p class="fs-5 mb-0 text-white">I and my few friends approached M.Phil. Project in Projects Corner. They provided us complete support with enhancement and thesis also Scopus Publication of our project. Thank you
-                                </p>
+                                <p class="fs-5 mb-0 text-white">The internship experience at Projectscorner was invaluable. I gained practical skills, expanded my professional network, and discovered my passion for software industry.</p>
                             </div>
                         </div>
                     </div>
@@ -1090,11 +1058,11 @@
                         <div class="col-4">
                             <div class="d-flex flex-column mx-auto">
                                 <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
-                                    <img src="img/suganthi-student.jpg" class="img-fluid rounded-circle" alt="">
+                                    <img src="img/logo.png" class="img-fluid rounded-circle" alt="">
                                 </div>
                                 <div class="text-center">
-                                    <h4 class="mb-2 text-light">Suganthi</h4>
-                                    <p class="m-0 text-light">Sri Manakula Vinayagar Engineering College</p>
+                                    <h4 class="mb-2 text-light">Divya</h4>
+                                    <p class="m-0 text-light">BITS</p>
                                 </div>
                             </div>
                         </div>
@@ -1110,8 +1078,7 @@
                                     <i class="fas fa-star rating"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p class="fs-5 mb-0 text-white">With my Seniors reference I did my Internship MCA project in projectscorner Telangana. They trained me 1 month in .NET technology and now I can develop my project own. Good practical sessions only given clearly, so easy to understand.
-                                </p>
+                                <p class="fs-5 mb-0 text-white">Working with Projectscorner on my academic project was a game-changer. Their guidance and support helped me transform my ideas into reality and achieve outstanding results.</p>
                             </div>
                         </div>
                     </div>
@@ -1190,7 +1157,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 text-center text-md-end text-white">
-                    Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">S2Web Solutions</a>
+                    Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">S2SWeb Solutions</a>
                 </div>
             </div>
         </div>
