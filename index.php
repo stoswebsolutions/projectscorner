@@ -1,340 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Projects Corner - Building dreams to reality</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
-     
-	   <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet"> 
+<head>
+    <meta charset="utf-8">
+    <title>Projects Corner - Building dreams to reality</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .logo {
+            mix-blend-mode: multiply;
+        }
+    </style>
+</head>
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-	<style>
-	.logo {
-	mix-blend-mode: multiply;
-	}
-	</style>
-    </head>
-
-    <body>
-
-        <!-- Spinner Start -->
-        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" role="status"></div>
-        </div>
-        <!-- Spinner End -->
-
-
-        <!-- Navbar start -->
-        <div class="container-fluid sticky-top px-0">
-            <div class="container-fluid topbar d-none d-lg-block">
-                <div class="container px-0">
-                    <div class="row align-items-center">
-                        <?php include 'top_navbar.php'; ?>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid bg-light">
-                <div class="container px-0">
-                    <?php include 'menu.php'; ?>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Navbar start -->
+    <div class="container-fluid sticky-top px-0">
+        <div class="container-fluid topbar d-none d-lg-block">
+            <div class="container px-0">
+                <div class="row align-items-center">
+                    <?php include 'top_navbar.php'; ?>
                 </div>
             </div>
         </div>
-        <!-- Navbar End -->
-
-
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
+        <div class="container-fluid">
+            <div class="container px-0">
+                <?php include 'menu.php'; ?>
             </div>
         </div>
-        <!-- Modal Search End -->
+    </div>
+    <!-- Navbar End -->
 
-
-
-        <!-- Carousel Start -->
-        <div class="container-fluid carousel-header px-0">
-            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <img src="img/carousel-img.jpg" class="img-fluid" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="p-3" style="max-width: 900px;">
-                               <!-- <h4 class="text-primary text-uppercase mb-3">Spa & Beauty Center</h4>
-                                <h1 class="display-1 text-capitalize text-dark mb-3">Massage Treatment</h1>
-                                <p class="mx-md-5 fs-4 px-4 mb-5 text-dark">Lorem rebum magna dolore amet lorem eirmod magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum</p>-->
-                                <div class="d-flex align-items-center justify-content-center">
-                                  <!--  <a class="btn btn-light btn-light-outline-0 rounded-pill py-3 px-5 me-4" href="#">Get Start</a>
-                                    <a class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5" href="#">Book Now</a>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/carousel-img1-jpg.jpg" class="img-fluid" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="p-3" style="max-width: 900px;">
-                               <!-- <h4 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Spa & Beauty Center</h4>
-                                <h1 class="display-1 text-capitalize text-dark mb-3">Facial Treatment</h1>
-                                <p class="mx-md-5 fs-4 px-5 mb-5 text-dark">Lorem rebum magna dolore amet lorem eirmod magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum</p>-->
-                                <div class="d-flex align-items-center justify-content-center">
-                                   <!-- <a class="btn btn-light btn-light-outline-0 rounded-pill py-3 px-5 me-4" href="#">Get Start</a>
-                                    <a class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5" href="#">Book Now</a>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/carousel-img3.jpg" class="img-fluid" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="p-3" style="max-width: 900px;">
-                               <!-- <h4 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Spa & Beauty Center</h4>
-                                <h1 class="display-1 text-capitalize text-dark">Cellulite Treatment</h1>
-                                <p class="mx-md-5 fs-4 px-5 mb-5 text-dark">Lorem rebum magna dolore amet lorem eirmod magna erat diam stet. Sadips duo stet amet amet ndiam elitr ipsum</p>-->
-                                <div class="d-flex align-items-center justify-content-center">
-                                   <!-- <a class="btn btn-light btn-light-outline-0 rounded-pill py-3 px-5 me-4" href="#">Get Start</a>
-                                    <a class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5" href="#">Book Now</a>-->
-                                </div>
+    <!-- Carousel Start -->
+    <div class="container-fluid carousel-header px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="images/logobanner.png" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3" style="max-width: 900px;">
+                            <div class="d-flex align-items-center justify-content-center">
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-        <!-- Carousel End -->
-
-
-        <!-- Services Start -->
-        <div class="container-fluid services py-5">
-            <div class="container py-5">
-                <div class="mx-auto text-center mb-5" style="max-width: 800px;">
-                    <p class="fs-4 text-uppercase text-center text-primary">IEEE Projects</p>
-                    <h1 class="display-3">IEEE Projects for CSE, IT, MCA, ECE</h1>
+                <div class="carousel-item">
+                    <img src="img/carousel-img.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-primary text-uppercase mb-3">Building Dreams to Reality</h4>
+                            <h1 class="display-1 text-capitalize text-primary mb-3">Projects Corner</h1>
+                            <p class="mx-md-5 fs-4 px-4 mb-5 text-primary">Final Year Projects BTech,MTech and MCA</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
-                            <div class="row align-items-center">
-                                <div class="col-8">
-                                    <div class="services-content text-end">
-                                        <h3>Python IEEE Projects</h3>
-                                        <p align="left">Welcome to Python IEEE Projects hub, where we bridge the gap between academia and industry by offering a diverse range of projects aligned with IEEE base paper.</p>
-                                        <a href="python-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                        <img src="img/python-1.jpeg" class="img-fluid rounded" alt="">
-                                    </div>
-                                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-img1-jpg.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-primary text-uppercase mb-3">Building Dreams to Reality</h4>
+                            <h1 class="display-1 text-capitalize text-primary mb-3">Projects Corner</h1>
+                            <p class="mx-md-5 fs-4 px-4 mb-5 text-primary">Final Year Projects BTech,MTech and MCA</p>
+                            <div class="d-flex align-items-center justify-content-center">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
-                            <div class="row align-items-center">
-                                <div class="col-4">
-                                    <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                        <img src="img/java-1.png" class="img-fluid rounded" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-8">
-                                    <div class="services-content text-start">
-                                        <h3>Java IEEE Projects</h3>
-                                        <p align='left'>Projectscorner is pioneer is developing Java Final Year IEEE Projects for CSE, IT, MCA students. Projectscorner offers both readymade Projects and customized projects for Final Year projects for CSE.</p>
-                                        <a href="java-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
-                                    </div>
-                                </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel-img3.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-primary text-uppercase mb-3">Building Dreams to Reality</h4>
+                            <h1 class="display-1 text-capitalize text-primary mb-3">Projects Corner</h1>
+                            <p class="mx-md-5 fs-4 px-4 mb-5 text-primary">Final Year Projects BTech,MTech and MCA</p>
+                            <div class="d-flex align-items-center justify-content-center">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
-                            <div class="row align-items-center">
-                                <div class="col-8">
-                                    <div class="services-content text-end">
-                                        <h3>Dotnet IEEE projects</h3>
-                                        <p align="left">The .NET framework is a powerful tool for building a wide range of software applications, from web apps to desktop programs and mobile apps. It’s versatile, robust, and widely used in industry, making it an excellent choice for your final year project.</p>
-                                        <a href="dot-net-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More ..</a>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                        <img src="img/dotnet-1.jpg" class="img-fluid rounded" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
-                            <div class="row align-items-center">
-                                <div class="col-4">
-                                    <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                        <img src="img/matlab-1.jpg" class="img-fluid rounded" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-8">
-                                    <div class="services-content text-start">
-                                        <h3>Matlab Digital Image Processing Projects</h3>
-                                        <p align="left">Image Processing Projects with Matlab for Final Year Students From the following you can see the Matlab Image Processing Final Year Projects. If you click the project title, you can see the details of the project with the output Video of it.</p>
-                                        <a href="matlab-image-processing-ieee-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
-                            <div class="row align-items-center">
-                                <div class="col-8">
-                                    <div class="services-content text-end">
-                                        <h3>Hadoop IEEE Projects</h3>
-                                        <p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                        <img src="img/hadoop-1.png" class="img-fluid rounded" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
-                            <div class="row align-items-center">
-                                <div class="col-4">
-                                    <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                        <img src="img/ns2-1.jpg" class="img-fluid rounded" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-8">
-                                    <div class="services-content text-start">
-                                        <h3>NS2 IEEE Projects</h3>
-                                        <p>NS2 (Network Simulator 2) is an open-source simulation tool that is widely used for research and education in the field of computer networks. It allows users to simulate various network protocols and evaluate their performance in different scenarios. </p>
-                                        <a href="ns2-ieee-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
-                            <div class="row align-items-center">
-                                <div class="col-8">
-                                    <div class="services-content text-end">
-                                        <h3>Python IEEE Projects</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                                        <a href="python-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                        <img src="img/python-1.jpeg" class="img-fluid rounded" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
-                            <div class="row align-items-center">
-                                <div class="col-4">
-                                    <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                        <img src="img/php-1.png" class="img-fluid rounded" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-8">
-                                    <div class="services-content text-start">
-                                        <h3>PHP Projects</h3>
-                                        <p>Are you a final year student or a beginner looking for PHP projects with complete source code? You’ve come to the right place! Our Php Final Year Projects portal offers a wide array of PHP projects tailored for students and beginners.</p>
-                                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Make Order</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="services-btn text-center">
-                            <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">IEEE Projects More</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <!-- Services End -->
-
-        
-        <!-- About Start -->
-        <div class="container-fluid about py-5">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-5">
-                        <div class="video">
-                            <img src="img/home_about.jpg" class="img-fluid rounded" alt="">
-                            <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
-                                <img src="img/home_about_img2.png" class="img-fluid rounded" alt="">
+    </div>
+    <!-- Carousel End -->
+    <!-- Services Start -->
+    <div class="container-fluid services py-5">
+        <div class="container py-5" style="padding-top: 1rem !important">
+            <div class="mx-auto text-center mb-5">
+                <h1 class="text-uppercase display-5">IEEE Projects for BTech, MTech and MCA</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-start border-end border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="services-content text-end">
+                                    <h3>Python IEEE Projects</h3>
+                                    <p align="left">Welcome to Python IEEE Projects hub, where we bridge the gap between academia and industry by offering a diverse range of projects aligned with IEEE base paper.</p>
+                                    <a href="python-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
+                                </div>
                             </div>
-                            <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=a4mMuu2SOG4" data-bs-target="#videoModal">
-                                <span></span>
-                            </button>
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/python-1.jpeg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <p class="fs-4 text-uppercase text-primary">About Us</p>
-                        <h1 class="display-4 mb-4">Projects Corner & FINAL YEAR PROJECTS</h1>
-                        <p class="mb-4">Projects corner is specialized in delivering customized IEEE projects of various technologies (python,Java,Dot Net, 
-Hadoop, NS2,PHP) tailored to meet your unique requirements and objectives. We understand that every project is 
-different, and our team of experienced engineers and developers is dedicated to crafting solutions that align 
-perfectly with your vision and goals. </p>
-                       <!-- <div class="row g-4">
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/java-1.png" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="services-content text-start">
+                                    <h3>Java IEEE Projects</h3>
+                                    <p align='left'>Projectscorner is pioneer is developing Java Final Year IEEE Projects for CSE, IT, MCA students. Projectscorner offers both readymade Projects and customized projects for Final Year projects for CSE.</p>
+                                    <a href="java-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="services-content text-end">
+                                    <h3>Dotnet IEEE projects</h3>
+                                    <p align="left">The .NET framework is a powerful tool for building a wide range of software applications, from web apps to desktop programs and mobile apps. It’s versatile, robust, and widely used in industry, making it an excellent choice for your final year project.</p>
+                                    <a href="dot-net-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More ..</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/dotnet-1.jpg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/matlab-1.jpg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="services-content text-start">
+                                    <h3>Matlab Digital Image Processing Projects</h3>
+                                    <p align="left">Image Processing Projects with Matlab for Final Year Students From the following you can see the Matlab Image Processing Final Year Projects. If you click the project title, you can see the details of the project with the output Video of it.</p>
+                                    <a href="matlab-image-processing-ieee-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More..</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="services-content text-end">
+                                    <h3>Hadoop IEEE Projects</h3>
+                                    <p style="color:black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                                    <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/hadoop-1.png" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/ns2-1.jpg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="services-content text-start">
+                                    <h3>NS2 IEEE Projects</h3>
+                                    <p>NS2 (Network Simulator 2) is an open-source simulation tool that is widely used for research and education in the field of computer networks. It allows users to simulate various network protocols and evaluate their performance in different scenarios. </p>
+                                    <a href="ns2-ieee-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <div class="services-content text-end">
+                                    <h3>Python IEEE Projects</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                                    <a href="python-projects.php" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">More</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/python-1.jpeg" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                    <img src="img/php-1.png" class="img-fluid rounded" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="services-content text-start">
+                                    <h3>PHP Projects</h3>
+                                    <p>Are you a final year student or a beginner looking for PHP projects with complete source code? You’ve come to the right place! Our Php Final Year Projects portal offers a wide array of PHP projects tailored for students and beginners.</p>
+                                    <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">Make Order</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="services-btn text-center">
+                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">IEEE Projects More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+    <!-- About Start -->
+    <div class="container-fluid about py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <div class="video">
+                        <img src="img/home_about.jpg" class="img-fluid rounded" alt="">
+                        <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
+                            <img src="img/home_about_img2.png" class="img-fluid rounded" alt="">
+                        </div>
+                        <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=a4mMuu2SOG4" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <p class="fs-4 text-uppercase text-primary">About Us</p>
+                    <h1 class="display-4 mb-4">Projects Corner & FINAL YEAR PROJECTS</h1>
+                    <p class="mb-4">Projects corner is specialized in delivering customized IEEE projects of various technologies (python,Java,Dot Net,
+                        Hadoop, NS2,PHP) tailored to meet your unique requirements and objectives. We understand that every project is
+                        different, and our team of experienced engineers and developers is dedicated to crafting solutions that align
+                        perfectly with your vision and goals. </p>
+                    <!-- <div class="row g-4">
                             <div class="col-md-6">
                                 <div class="d-flex align-items-center">
                                     <i class="fab fa-gitkraken fa-3x text-primary"></i>
@@ -354,44 +322,41 @@ perfectly with your vision and goals. </p>
                                 </div>
                             </div>
                         </div>-->
-                        <p class="my-4">We have experience 10+ years in the industry connected with the lot Teaching and Research experts working in 
-various prestigious InsƟtuƟons. We have dedicated professionals team working with technology and updating with 
-trends delivering students a quality project. 
-</p>
-                        <p class="mb-4">Customization of Projects is our Main Motto</p>
-						<!-- <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <p class="my-4">We have experience 10+ years in the industry connected with the lot Teaching and Research experts working in
+                        various prestigious InsƟtuƟons. We have dedicated professionals team working with technology and updating with
+                        trends delivering students a quality project.
+                    </p>
+                    <p class="mb-4">Customization of Projects is our Main Motto</p>
+                    <!-- <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
 						<p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p> -->
-                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">Explore More</a>
-                    </div> 
+                    <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">Explore More</a>
                 </div>
             </div>
         </div>
-        <!-- Modal Video -->
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                                allow="autoplay"></iframe>
-                        </div>
+    </div>
+    <!-- Modal Video -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
-
-
-        <!-- Appointment Start -->
-        <div class="container-fluid appointment py-5">
-            <!-- <div class="container py-5">
+    </div>
+    <!-- About End -->
+    <!-- Appointment Start -->
+    <div class="container-fluid appointment py-5">
+        <!-- <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="appointment-form p-5">
@@ -462,71 +427,69 @@ trends delivering students a quality project.
                     </div>
                 </div>
             </div> -->
-            <!-- Counter Start -->
-            <div class="container-fluid counter-section">
-                <div class="container py-5">
-                    <div class="row g-5 justify-content-center">
-                        <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="counter-item p-5">
-                                <div class="counter-content bg-white p-4">
-                                    <i class="fas fa-globe fa-5x text-primary mb-3"></i>
-                                    <h5 class="text-primary">Projects</h5>
-                                    <div class="svg-img">
-                                        <svg width="100" height="50">
-                                            <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="counter-quantity">
-                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">379</span>
-                                    <span class="h1 fw-bold text-white">+</span>
+        <!-- Counter Start -->
+        <div class="container-fluid counter-section">
+            <div class="container py-5">
+                <div class="row g-5 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-4">
+                        <div class="counter-item p-5">
+                            <div class="counter-content bg-white p-4">
+                                <i class="fas fa-globe fa-5x text-primary mb-3"></i>
+                                <h5 class="text-primary">Projects</h5>
+                                <div class="svg-img">
+                                    <svg width="100" height="50">
+                                        <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;" />
+                                    </svg>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="counter-item p-5">
-                                <div class="counter-content bg-white p-4">
-                                    <i class="fas fa-spa fa-5x text-primary mb-3"></i>
-                                    <h5 class="text-primary">Years of Experience</h5>
-                                    <div class="svg-img">
-                                        <svg width="100" height="50">
-                                            <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="counter-quantity">
-                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">10</span>
-                                    <span class="h1 fw-bold text-white">+</span>
-                                </div>
+                            <div class="counter-quantity">
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">379</span>
+                                <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="counter-item p-5">
-                                <div class="counter-content bg-white p-4">
-                                    <i class="fas fa-users fa-5x text-primary mb-3"></i>
-                                    <h5 class="text-primary">Students </h5>
-                                    <div class="svg-img">
-                                        <svg width="100" height="50">
-                                            <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;"/>
-                                        </svg>
-                                    </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-4">
+                        <div class="counter-item p-5">
+                            <div class="counter-content bg-white p-4">
+                                <i class="fas fa-spa fa-5x text-primary mb-3"></i>
+                                <h5 class="text-primary">Years of Experience</h5>
+                                <div class="svg-img">
+                                    <svg width="100" height="50">
+                                        <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;" />
+                                    </svg>
                                 </div>
-                                <div class="counter-quantity">
-                                    <span class="text-white fs-2 fw-bold" data-toggle="counter-up">713</span>
-                                    <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                            <div class="counter-quantity">
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">10</span>
+                                <span class="h1 fw-bold text-white">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-4">
+                        <div class="counter-item p-5">
+                            <div class="counter-content bg-white p-4">
+                                <i class="fas fa-users fa-5x text-primary mb-3"></i>
+                                <h5 class="text-primary">Students </h5>
+                                <div class="svg-img">
+                                    <svg width="100" height="50">
+                                        <polygon points="55, 10 85, 55 25, 55 25," style="fill: #DCCAF2;" />
+                                    </svg>
                                 </div>
+                            </div>
+                            <div class="counter-quantity">
+                                <span class="text-white fs-2 fw-bold" data-toggle="counter-up">713</span>
+                                <span class="h1 fw-bold text-white">+</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Counter End -->
         </div>
-        <!-- Appointment End -->
-
-
-        <!-- Gallery Start -->
-      <!--  <div class="container-fluid gallery py-5">
+        <!-- Counter End -->
+    </div>
+    <!-- Appointment End -->
+    <!-- Gallery Start -->
+    <!--  <div class="container-fluid gallery py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5" style="max-width: 800px;">
                     <p class="fs-4 text-uppercase text-primary">Our Gallery</p>
@@ -891,11 +854,9 @@ trends delivering students a quality project.
                 </div>
             </div>
         </div>-->
-        <!-- gallery End -->
-
-
-        <!-- Pricing Start -->
-     <!--   <div class="container-fluid pricing py-5">
+    <!-- gallery End -->
+    <!-- Pricing Start -->
+    <!--   <div class="container-fluid pricing py-5">
             <div class="container py-5">
                 <div class="owl-carousel pricing-carousel">
                     <div class="pricing-item">
@@ -973,11 +934,9 @@ trends delivering students a quality project.
                 </div>
             </div>
         </div>-->
-        <!-- Pricing End -->
-
-
-        <!-- Team Start -->
-     <!--   <div class="container-fluid team py-5">
+    <!-- Pricing End -->
+    <!-- Team Start -->
+    <!--   <div class="container-fluid team py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto mb-5" style="max-width: 800px;">
                     <p class="fs-4 text-uppercase text-primary">Spa Specialist</p>
@@ -1055,118 +1014,114 @@ trends delivering students a quality project.
                 </div>
             </div>
         </div>-->
-        <!-- Team End -->
-
-
-        <!-- Testimonial Start -->
-        <div class="container-fluid testimonial py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto mb-5" style="max-width: 800px;">
-                    <p class="fs-4 text-uppercase text-primary">Testimonial</p>
-                    <h1 class="display-4 mb-4 ">What Our Students Say!</h1>
+    <!-- Team End -->
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+                <p class="fs-4 text-uppercase text-primary">Testimonial</p>
+                <h1 class="display-4 mb-4 ">What Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item rounded p-4">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="d-flex flex-column mx-auto">
+                                <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
+                                    <img src="img/arun-student.jpg" class="img-fluid rounded-circle" alt="">
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="mb-2 text-light">Arun</h4>
+                                    <p class="m-0 text-light">Christ College of Engineering</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="position-absolute" style="top: 20px; right: 25px;">
+                                <i class="fa fa-quote-right fa-2x text-secondary"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="d-flex mb-4">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="fs-5 mb-0 text-white">I Completed my Final Year B.Tech. project in Projrcts Corner. By seeing the Youtube Video, I approached them. They provided me the support for my project good. I also published my Paper in the International Journal. Thank you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="owl-carousel testimonial-carousel">
-                    <div class="testimonial-item rounded p-4">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="d-flex flex-column mx-auto">
-                                    <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
-                                        <img src="img/arun-student.jpg" class="img-fluid rounded-circle" alt="">
-                                    </div>
-                                    <div class="text-center">
-                                        <h4 class="mb-2 text-light">Arun</h4>
-                                        <p class="m-0 text-light">Christ College of Engineering</p>
-                                    </div>
+                <div class="testimonial-item rounded p-4">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="d-flex flex-column mx-auto">
+                                <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
+                                    <img src="img/priya-student.jpg" class="img-fluid rounded-circle" alt="">
                                 </div>
-                            </div>
-                            <div class="col-8">
-                                <div class="position-absolute" style="top: 20px; right: 25px;">
-                                    <i class="fa fa-quote-right fa-2x text-secondary"></i>
-                                </div>
-                                <div class="testimonial-content">
-                                    <div class="d-flex mb-4">
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <p class="fs-5 mb-0 text-white">I Completed my Final Year B.Tech. project in Projrcts Corner. By seeing the Youtube Video, I approached them. They provided me the support for my project good. I also published my Paper in the International Journal. Thank you.
-                                    </p>
+                                <div class="text-center">
+                                    <h4 class="mb-2 text-light">Priya</h4>
+                                    <p class="m-0 text-light">Theivanai Ammal College for Women</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="d-flex flex-column mx-auto">
-                                    <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
-                                        <img src="img/priya-student.jpg" class="img-fluid rounded-circle" alt="">
-                                    </div>
-                                    <div class="text-center">
-                                        <h4 class="mb-2 text-light">Priya</h4>
-                                        <p class="m-0 text-light">Theivanai Ammal College for Women</p>
-                                    </div>
-                                </div>
+                        <div class="col-8">
+                            <div class="position-absolute" style="top: 20px; right: 25px;">
+                                <i class="fa fa-quote-right fa-2x text-secondary"></i>
                             </div>
-                            <div class="col-8">
-                                <div class="position-absolute" style="top: 20px; right: 25px;">
-                                    <i class="fa fa-quote-right fa-2x text-secondary"></i>
+                            <div class="testimonial-content">
+                                <div class="d-flex mb-4">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star"></i>
                                 </div>
-                                <div class="testimonial-content">
-                                    <div class="d-flex mb-4">
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <p class="fs-5 mb-0 text-white">I and my few friends approached M.Phil. Project in Projects Corner. They provided us complete support with enhancement and thesis also Scopus Publication of our project. Thank you
-                                    </p>
-                                </div>
+                                <p class="fs-5 mb-0 text-white">I and my few friends approached M.Phil. Project in Projects Corner. They provided us complete support with enhancement and thesis also Scopus Publication of our project. Thank you
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="d-flex flex-column mx-auto">
-                                    <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
-                                        <img src="img/suganthi-student.jpg" class="img-fluid rounded-circle" alt="">
-                                    </div>
-                                    <div class="text-center">
-                                        <h4 class="mb-2 text-light">Suganthi</h4>
-                                        <p class="m-0 text-light">Sri Manakula Vinayagar Engineering College</p>
-                                    </div>
+                </div>
+                <div class="testimonial-item rounded p-4">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="d-flex flex-column mx-auto">
+                                <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
+                                    <img src="img/suganthi-student.jpg" class="img-fluid rounded-circle" alt="">
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="mb-2 text-light">Suganthi</h4>
+                                    <p class="m-0 text-light">Sri Manakula Vinayagar Engineering College</p>
                                 </div>
                             </div>
-                            <div class="col-8">
-                                <div class="position-absolute" style="top: 20px; right: 25px;">
-                                    <i class="fa fa-quote-right fa-2x text-secondary"></i>
+                        </div>
+                        <div class="col-8">
+                            <div class="position-absolute" style="top: 20px; right: 25px;">
+                                <i class="fa fa-quote-right fa-2x text-secondary"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="d-flex mb-4">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star"></i>
                                 </div>
-                                <div class="testimonial-content">
-                                    <div class="d-flex mb-4">
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star rating"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <p class="fs-5 mb-0 text-white">With my Seniors reference I did my Internship MCA project in projectscorner Telangana. They trained me 1 month in .NET technology and now I can develop my project own. Good practical sessions only given clearly, so easy to understand.
-                                    </p>
-                                </div>
+                                <p class="fs-5 mb-0 text-white">With my Seniors reference I did my Internship MCA project in projectscorner Telangana. They trained me 1 month in .NET technology and now I can develop my project own. Good practical sessions only given clearly, so easy to understand.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
-
-
-        <!-- Contact Start -->
-      <!--  <div class="container-fluid py-5">
+    </div>
+    <!-- Testimonial End -->
+    <!-- Contact Start -->
+    <!--  <div class="container-fluid py-5">
             <div class="container py-5">
                 <div class="row g-4 align-items-center">
                     <div class="col-12">
@@ -1219,43 +1174,30 @@ trends delivering students a quality project.
                 </div>
             </div>
         </div>-->
-        <!-- Contact End -->
-
-
-
-        <!-- Footer Start -->
-        <?php include 'footer.php'; ?>
-        <!-- Footer End -->
-
-
-
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-4 text-center text-md-start mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>www.projectscorner.in</a> All right reserved.</span>
+    <!-- Contact End -->
+    <!-- Footer Start -->
+    <?php include 'footer.php'; ?>
+    <!-- Footer End -->
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-4 text-center text-md-start mb-md-0">
+                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>www.projectscorner.in</a> All right reserved.</span>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-center">
                     </div>
-                    <div class="col-md-4">
-                        <div class="d-flex justify-content-center">
-                           
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-center text-md-end text-white">
-                        
-                         Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">S2Web Solutions</a> 
-                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-end text-white">
+                    Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">S2Web Solutions</a>
                 </div>
             </div>
         </div>
-        <!-- Copyright End -->
-
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
-        
+    </div>
+    <!-- Copyright End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -1265,9 +1207,8 @@ trends delivering students a quality project.
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    </body>
+</body>
 
 </html>
