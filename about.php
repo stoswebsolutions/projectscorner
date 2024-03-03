@@ -23,7 +23,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="about.css" rel="stylesheet">
+    <!-- page Stylesheet -->
+    <link href="css/about.css" rel="stylesheet">
 </head>
 
 <body>
@@ -110,6 +111,7 @@
             </div>
         </div>
     </div>
+    <!-- Modal Video End-->
     <div class="container-fluid">
         <div class="container">
             <h2 class="text-center">Projectscorner Key Features</h2>
@@ -153,9 +155,6 @@
         <div class="container">
             <h2 class="text-center">Projectscorner Process</h2>
             <div class="row align-items-center">
-                <div class="col-md-5">
-                    <img src="img/custom-process.png" class="img-fluid rounded" alt="">
-                </div>
                 <div class="col-md-7">
                     <div class="process">
                         <h5 class="text-primary">Requirement Gathering:</h5>
@@ -175,6 +174,9 @@
                         <p class="justify-content" style="font-size:medium">We assist you in deploying the customized solution seamlessly into your
                             environment and provide ongoing support and maintenance to ensure optimal performance and user satisfaction. </p>
                     </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/custom-process.png" class="img-fluid rounded" alt="">
                 </div>
             </div>
         </div>
