@@ -58,7 +58,7 @@
                         <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
                             <img src="img/home_about_img2.png" class="img-fluid rounded" alt="">
                         </div>
-                        <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                        <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=5amfO0yrN1I&t=79s" data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
@@ -104,7 +104,7 @@
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5amfO0yrN1I?rel=0" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -191,21 +191,19 @@
         <div class="container">
             <div class="row g-4 align-items-center">
                 <div class="col-md-4 text-center text-md-start mb-md-0">
-                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>www.projectscorner.in</a>, All right reserved.</span>
+                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Projectscorner</a> All right reserved.</span>
                 </div>
                 <div class="col-md-4">
-                    <div class="d-flex justify-content-center">
-                        <!-- <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-facebook-f"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2"><i class="fab fa-instagram"></i></a>
-                            <a href="" class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>-->
+                    <div class="d-flex align-items-center justify-content-start">
+                        <a href="https://www.facebook.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-instagram"></i></a>
+                        <a href="https://in.linkedin.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://youtube.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4 text-center text-md-end text-white">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">S2Web Solutions</a>
+                    Designed By <a class="border-bottom" href="https://s2swebsolutions.com/">S2SWeb Solutions</a>
                 </div>
             </div>
         </div>

@@ -290,7 +290,7 @@
                         <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
                             <img src="img/home_about_img2.png" class="img-fluid rounded" alt="">
                         </div>
-                        <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=a4mMuu2SOG4" data-bs-target="#videoModal">
+                        <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=5amfO0yrN1I" data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
@@ -317,7 +317,7 @@
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=a4mMuu2SOG4" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5amfO0yrN1I?rel=0" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -1150,10 +1150,15 @@
         <div class="container">
             <div class="row g-4 align-items-center">
                 <div class="col-md-4 text-center text-md-start mb-md-0">
-                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>www.projectscorner.in</a> All right reserved.</span>
+                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Projectscorner</a> All right reserved.</span>
                 </div>
                 <div class="col-md-4">
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex align-items-center justify-content-start">
+                        <a href="https://www.facebook.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-instagram"></i></a>
+                        <a href="https://in.linkedin.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://youtube.com/projectscorner" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4 text-center text-md-end text-white">
