@@ -1002,7 +1002,7 @@
                                 </div>
                                 <div class="text-center">
                                     <h4 class="mb-2 text-light">Abhinay</h4>
-                                    <p class="m-0 text-light">VGSE</p>
+                                    <p class="m-0 text-light"></p>
                                 </div>
                             </div>
                         </div>
@@ -1018,7 +1018,7 @@
                                     <i class="fas fa-star rating"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <p class="fs-5 mb-0 text-white">Working with Projectscorner on my academic project was a game-changer. Their guidance and support helped me transform my ideas into reality and achieve outstanding results.</p>
+                                <p class="fs-5 mb-0 text-white">I highly recommend Projectscorner's publication services to fellow researchers. Their attention to detail, professionalism, and commitment to excellence are truly commendable.</p>
                             </div>
                         </div>
                     </div>
@@ -1049,6 +1049,36 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <p class="fs-5 mb-0 text-white">The internship experience at Projectscorner was invaluable. I gained practical skills, expanded my professional network, and discovered my passion for software industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item rounded p-4">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="d-flex flex-column mx-auto">
+                                <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
+                                    <img src="img/logo.png" class="img-fluid rounded-circle" alt="">
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="mb-2 text-light">Swamy</h4>
+                                    <p class="m-0 text-light"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="position-absolute" style="top: 20px; right: 25px;">
+                                <i class="fa fa-quote-right fa-2x text-secondary"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="d-flex mb-4">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="fs-5 mb-0 text-white">Working with Projectscorner was a game-changer for me. Their expert guidance and support helped me navigate the publication process with ease, resulting in a successful publication in a top-tier journal.</p>
                             </div>
                         </div>
                     </div>

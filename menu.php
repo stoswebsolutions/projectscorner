@@ -28,7 +28,7 @@
                     <a href="android-final-year-projects.php" class="dropdown-item">Android </a>
                 </div>
             </div>
-            <a href="research.php" class="nav-item nav-link">Research</a>
+            <a href="research.php" class="nav-item nav-link">Paper&nbsp;Publication</a>
             <a href="interships.php" class="nav-item nav-link">Interships</a>
         </div>
         <div class="d-flex align-items-center flex-nowrap pt-xl-0">
