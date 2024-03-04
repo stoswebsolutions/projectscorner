@@ -52,18 +52,18 @@
     <div class="container-fluid services py-5">
         <div class="container" style="padding-top: 1rem !important">
             <div class="mx-auto">
-                <h1 class="text-center display-5">Projectscorner's .Net Academin Projects</h1>
-                <p>Welcome to Projectscorner's .NET Projects service! We specialize in providing high-quality .NET projects for students, professionals, and researchers. Our projects are meticulously designed to harness the power of the .NET framework, offering hands-on experience and practical skills development in software development.</p>
+                <h1 class="text-center display-5">Projectscorner's PHP Projects</h1>
+                <p>Welcome to Projectscorner's PHP Projects service! We specialize in providing high-quality PHP projects for students, professionals, and researchers. Our projects are meticulously designed to harness the power of PHP, offering hands-on experience and practical skills development in web development.</p>
                 <h5 class="text-primary">Mission Statement:</h5>
-                <p class="justify-content" style="font-size:medium">At Projectscorner, our mission is to empower individuals with innovative .NET projects that not only fulfill academic requirements but also foster creativity, problem-solving, and critical thinking skills. We are committed to providing projects that inspire and challenge our clients to excel in their academic and professional endeavors.</p>
+                <p class="justify-content" style="font-size:medium">At Projectscorner, our mission is to empower individuals with innovative PHP projects that not only fulfill academic requirements but also foster creativity, problem-solving, and critical thinking skills. We are committed to providing projects that inspire and challenge our clients to excel in their academic and professional endeavors.</p>
                 <ul>
-                    <li class="justify-content">We offer a diverse range of .NET projects covering various domains and functionalities, including but not limited to:
+                    <li class="justify-content">We offer a diverse range of PHP projects covering various domains and functionalities, including but not limited to:
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item list-group-item-primary">Desktop Applications</li>
-                            <li class="list-group-item list-group-item-secondary">Web Applications</li>
-                            <li class="list-group-item list-group-item-success">Enterprise Solutions</li>
-                            <li class="list-group-item list-group-item-danger">Database Management Systems</li>
-                            <li class="list-group-item list-group-item-warning">Cloud-Based Services</li>
+                            <li class="list-group-item list-group-item-primary">Content Management Systems (CMS)</li>
+                            <li class="list-group-item list-group-item-secondary">E-commerce Websites</li>
+                            <li class="list-group-item list-group-item-success">Social Networking Platforms</li>
+                            <li class="list-group-item list-group-item-danger">Online Forums and Communities</li>
+                            <li class="list-group-item list-group-item-warning">Booking and Reservation Systems</li>
                         </ul>
                     </li>
                     <li class="justify-content">Clients can choose from our curated list of project titles or request customization to tailor projects to their specific interests, requirements, and academic guidelines.</li>
@@ -80,26 +80,26 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Project Code</th>
-                        <th scope="col">.Net Projects</th>
+                        <th scope="col">PHP Projects</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>PCD801</td>
-                        <td>Employee Management System for Small Businesses</td>
+                        <td>PCP901</td>
+                        <td>Content Management System (CMS) for Blogging</td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                        <td>PCD802</td>
-                        <td>Inventory Management Software for Retail Stores</td>
+                        <td>PCP902</td>
+                        <td>E-commerce Website for Online Shopping</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
     <div class="text-center">
-        <p class="m-5 justify-content">Whether you're a student, researcher, or professional seeking to enhance your .NET development skills, Projectscorner is your trusted partner for high-quality .NET projects. Explore our curated list of project titles and embark on your journey towards academic excellence and professional success today.</p>
+        <p class="m-5 justify-content">Whether you're a student, researcher, or professional seeking to enhance your PHP web development skills, Projectscorner is your trusted partner for high-quality PHP projects. Explore our curated list of project titles and embark on your journey towards academic excellence and professional success today.</p>
     </div>
     <!-- Footer Start -->
     <?php include 'footer.php'; ?>
