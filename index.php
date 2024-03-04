@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid bg-light">
             <div class="container px-0">
                 <?php include 'menu.php'; ?>
             </div>
