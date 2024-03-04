@@ -66,9 +66,9 @@
                 </div>
                 <div class="col-md-5">
                     <div class="video">
-                        <img src="img/about_page_img.png" class="img-fluid rounded" alt="">
+                        <img src="images/about_page_img.png" class="img-fluid rounded" alt="">
                         <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
-                            <img src="img/home_about_img2.png" class="img-fluid rounded" alt="">
+                            <img src="images/home_about_img2.png" class="img-fluid rounded" alt="">
                         </div>
                         <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=5amfO0yrN1I&t=79s" data-bs-target="#videoModal">
                             <span></span>

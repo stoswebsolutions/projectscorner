@@ -121,7 +121,7 @@ function test_input($data)
                 <div class="col-lg-6">
                     <div class="text-center">
                         <h1 class="display-3  mb-4">Contact Us</h1>
-                        <img src="img/contactus.jpg" width="500" class="rounded" alt="image">
+                        <img src="images/contactus.jpg" width="500" class="rounded" alt="image">
                         <?php if (!empty($statusMsg)) { ?>
                             <div class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
                         <?php } ?>

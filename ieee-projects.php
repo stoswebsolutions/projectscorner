@@ -96,7 +96,7 @@
                             </div>
                             <div class="col-4">
                                 <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                    <img src="img/python-1.jpeg" class="img-fluid rounded" alt="">
+                                    <img src="images/python-1.jpeg" class="img-fluid rounded" alt="">
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                         <div class="row align-items-center">
                             <div class="col-4">
                                 <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                    <img src="img/java-1.png" class="img-fluid rounded" alt="">
+                                    <img src="images/java-1.png" class="img-fluid rounded" alt="">
                                 </div>
                             </div>
                             <div class="col-8">
@@ -132,7 +132,7 @@
                             </div>
                             <div class="col-4">
                                 <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                    <img src="img/dotnet-1.jpg" class="img-fluid rounded" alt="">
+                                    <img src="images/dotnet-1.jpg" class="img-fluid rounded" alt="">
                                 </div>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                         <div class="row align-items-center">
                             <div class="col-4">
                                 <div class="services-img d-flex align-items-center justify-content-center rounded">
-                                    <img src="img/matlab-1.jpg" class="img-fluid rounded" alt="">
+                                    <img src="images/matlab-1.jpg" class="img-fluid rounded" alt="">
                                 </div>
                             </div>
                             <div class="col-8">
