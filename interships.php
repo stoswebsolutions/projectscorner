@@ -59,34 +59,38 @@
     </div>
     <!-- Navbar End -->
     <!-- Services Start -->
-    <div class="container-fluid services py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                    <p class="fs-4 text-uppercase text-primary">Interships</p>
-                    <h1 class="display-6 mb-4">Projects Corner<span class="fs-6 text-uppercase text-primary">- Building dreams to reality</span></h1>
-                    <p class="mb-4 justify-content">Welcome to Projectscorner's Internship Programs! Our internship programs are designed to provide students with hands-on experience, practical skills development, and exposure to real-world projects in various fields of interest. Whether you're passionate about Fullstack Development, Java, PHP, Python, or other programming languages, we offer tailored internship opportunities to help you build a strong foundation for your future career.</p>
-                    <div class="d-flex align-items-center">
-                        <div class="ms-4">
-                            <h5 class="mb-2 text-primary">Program Structure:</h5>
-                            <p class="mb-0 justify-content">Our internship programs typically span 4 months and are available (frequency, e.g., annually, bi-annually). Interns have the opportunity to work on a variety of projects and tasks under the guidance of experienced professionals, gaining valuable insights and practical skills along the way.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="video">
-                        <img src="images/about_page_img.png" class="img-fluid rounded" alt="">
-                        <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
-                            <img src="images/home_about_img2.png" class="img-fluid rounded" alt="">
-                        </div>
-                        <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=5amfO0yrN1I&t=79s" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                    </div>
-                </div>
+    <div class="container-fluid py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center"> <!-- This keeps vertical alignment -->
+            
+            <!-- Left: Text -->
+            <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
+                <p class="fs-4 text-uppercase text-primary mb-2">Internships</p>
+                <h1 class="display-6 mb-4">
+                    Projects Corner 
+                    <span class="fs-6 text-uppercase text-primary">- Building Dreams into Reality</span>
+                </h1>
+                <p class="mb-4">
+                    Welcome to Projects Corner's Internship Programs! Our programs are designed to provide students with hands-on experience, practical skills development, and exposure to real-world projects across various fields. 
+                    Whether you're passionate about Full-Stack Development, Java, PHP, Python, or other programming languages, we offer tailored opportunities to help you build a strong foundation for your career.
+                </p>
+                <h5 class="text-primary mb-2">Program Structure:</h5>
+                <p class="mb-0">
+                    Our internships typically span 4 months and run throughout the year. Interns work on diverse projects under the guidance of experienced professionals, gaining valuable insights and practical skills along the way.
+                </p>
             </div>
+
+            <!-- Right: Image -->
+            <div class="col-lg-5 col-md-12 text-center">
+                <img src="images/internship.jpg" alt="Internship Program" 
+                     class="img-fluid rounded shadow-sm" 
+                     style="max-height: 400px; object-fit: cover; width: 100%;">
+            </div>
+
         </div>
     </div>
+</div>
+
     <!-- Modal Video -->
     <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">

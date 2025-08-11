@@ -20,6 +20,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
@@ -121,45 +122,60 @@
         </div>
     </div>
     <!-- Modal Video End-->
-    <div class="container-fluid">
-        <div class="container">
-            <h2 class="text-center">Projectscorner Key Features</h2>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="d-flex align-items-center">
-                        <div class="ms-4">
-                            <h5 class="mb-2 text-primary">Experienced Team</h5>
-                            <p class="mb-0 justify-content">Our team consists of experienced professionals and experts in various fields, dedicated to providing guidance, mentorship, and support to students and researchers.</p>
+
+    <!-- Key Features Section -->
+        <div class="container-fluid bg-light py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-uppercase" style="color: #474ea9;">Why Choose Us</h4>
+                    <h1 class="display-5 text-capitalize mb-3">Projectscorner Key Features</h1>
+                </div>
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-card text-center px-4 py-5">
+                            <div class="icon-circle mx-auto mb-4">
+                                <i class="fas fa-users fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3" style="color: #474ea9;">Experienced Team</h5>
+                            <p>Our team consists of experienced professionals and experts in various fields, dedicated to providing guidance, mentorship, and support to students and researchers.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="d-flex align-items-center">
-                        <div class="ms-4">
-                            <h5 class="mb-2 text-primary">Industry Partnerships</h5>
-                            <p class="mb-0 justify-content">We collaborate with industry partners and academic institutions to enhance our offerings and ensure the relevance and quality of our services.</p>
+                    <!-- Card 2 -->
+                    <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-card text-center px-4 py-5">
+                            <div class="icon-circle mx-auto mb-4">
+                                <i class="fas fa-handshake fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3" style="color: #474ea9;">Industry Partnerships</h5>
+                            <p>We collaborate with industry partners and academic institutions to enhance our offerings and ensure the relevance and quality of our services.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="d-flex align-items-center">
-                        <div class="ms-4">
-                            <h5 class="mb-2 text-primary">Innovation and Excellence</h5>
-                            <p class="mb-0 justify-content">We are committed to fostering innovation and excellence in everything we do, continuously striving to exceed expectations and deliver exceptional results.</p>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-card text-center px-4 py-5">
+                            <div class="icon-circle mx-auto mb-4">
+                                <i class="fas fa-lightbulb fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3" style="color: #474ea9;">Innovation & Excellence</h5>
+                            <p>We are committed to fostering innovation and excellence in everything we do, continuously striving to exceed expectations and deliver exceptional results.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="d-flex align-items-center">
-                        <div class="ms-4">
-                            <h5 class="mb-2 text-primary">Commitment to Diversity and Inclusion</h5>
-                            <p class="mb-0 justify-content">We embrace diversity and inclusion, recognizing the value of different perspectives and experiences in driving innovation and creativity.</p>
+                    <!-- Card 4 -->
+                    <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-card text-center px-4 py-5">
+                            <div class="icon-circle mx-auto mb-4">
+                                <i class="fas fa-users-cog fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3" style="color: #474ea9;">Diversity & Inclusion</h5>
+                            <p>We embrace diversity and inclusion, recognizing the value of different perspectives and experiences in driving innovation and creativity.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+
     <div class="container-fluid">
         <div class="container">
             <h2 class="text-center">Projectscorner Process</h2>
@@ -185,7 +201,7 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <img src="images/custom-process.png" class="img-fluid rounded" alt="">
+                    <img src="images/about_page_img2.jpg" class="img-fluid rounded" alt="">
                 </div>
             </div>
         </div>

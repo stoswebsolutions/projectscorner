@@ -4,3 +4,45 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
+    /* ===== Fix text justification ===== */
+.text-justify {
+    text-align: justify;
+}
+
+/* ===== Make images responsive ===== */
+.services img,
+.container-fluid img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ===== Adjust big headings for smaller screens ===== */
+@media (max-width: 768px) {
+    h1, .display-6 {
+        font-size: 1.75rem; /* Reduce large headings */
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .services p,
+    .process p,
+    .process li {
+        font-size: 0.95rem; /* Slightly smaller text */
+    }
+}
+
+/* ===== Remove fixed height restriction on mobile ===== */
+@media (max-width: 768px) {
+    .services img {
+        max-height: none;
+    }
+}
+
+/* ===== Footer icons alignment ===== */
+@media (max-width: 768px) {
+    .copyright .col-md-4 {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+}

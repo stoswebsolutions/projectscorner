@@ -61,25 +61,20 @@
     <div class="container-fluid services py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-5">
-                    <div class="video">
-                        <img src="images/about_page_img.png" class="img-fluid rounded" alt="">
-                        <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;;">
-                            <img src="images/home_about_img2.png" class="img-fluid rounded" alt="">
-                        </div>
-                        <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=5amfO0yrN1I&t=79s" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-md-7">
+                 <div class="col-lg-5 col-md-12 text-center">
+                <img src="images/paperResearch.jpg" alt="Internship Program" 
+                     class="img-fluid rounded shadow-sm" 
+                     style="max-height: 400px; object-fit: cover; width: 100%;">
+            </div>
+
+                <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
                     <p class="fs-4 text-uppercase text-primary">Paper Research and Publications</p>
                     <h1 class="display-6 mb-4">Projects Corner<span class="fs-6 text-uppercase text-primary">- Building dreams to reality</span></h1>
-                    <p class="mb-4 justify-content">Welcome to Projectscorner's Research Paper Publication Services! We specialize in facilitating the publication of high-quality research papers in reputable journals and conferences. Our services are designed to support researchers, academics, and students in disseminating their findings, contributing to the advancement of knowledge in their respective fields.</p>
+                    <p class="mb-4 text-justify">Welcome to Projectscorner's Research Paper Publication Services! We specialize in facilitating the publication of high-quality research papers in reputable journals and conferences. Our services are designed to support researchers, academics, and students in disseminating their findings, contributing to the advancement of knowledge in their respective fields.</p>
                     <div class="d-flex align-items-center">
                         <div class="ms-4">
                             <h5 class="mb-2 text-primary">Mission Statement:</h5>
-                            <p class="mb-0 justify-content">At Projectscorner, our mission is to promote academic excellence and knowledge dissemination by providing comprehensive support and resources to researchers throughout the publication process. We are committed to facilitating the dissemination of innovative research and fostering collaboration within the academic community.</p>
+                            <p class="mb-0 text-justify">At Projectscorner, our mission is to promote academic excellence and knowledge dissemination by providing comprehensive support and resources to researchers throughout the publication process. We are committed to facilitating the dissemination of innovative research and fostering collaboration within the academic community.</p>
                         </div>
                     </div>
                 </div>
@@ -113,8 +108,9 @@
                     <div class="process">
                         <h5 class="text-primary">Publication Support:</h5>
                         <ul>
-                            <li class="justify-content" style="font-size:medium">We offer end-to-end publication support, guiding researchers through every step of the publication process, from manuscript preparation to submission and review.</li>
-                            <li class="justify-content" style="font-size:medium">Our team of experienced professionals provides assistance with manuscript formatting, citation style adherence, and journal/conference selection to maximize the chances of acceptance.</li>
+                            <li class="text-justify" style="font-size:medium">We offer end-to-end publication support, guiding researchers through every step of the publication process, from manuscript preparation to submission and review.</li>
+                                <li class="text-justify" style="font-size:medium">Our team of experienced professionals provides assistance with manuscript formatting, citation style adherence, and journal/conference selection to maximize the chances of acceptance.</li>
+
                         </ul>
                         <h5 class="text-primary">Peer Review Assistance:</h5>
                         <ul>
@@ -139,7 +135,7 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <img src="images/custom-process.png" class="img-fluid rounded" alt="">
+                    <img src="images/publication.jpg" class="img-fluid rounded" alt="">
                 </div>
             </div>
         </div>
@@ -149,7 +145,7 @@
             <h2 class="text-center">Benefits of Our Services</h2>
             <div class="row align-items-center">
                 <div class="col-md-5">
-                    <img src="images/custom-process.png" class="img-fluid rounded" alt="">
+                    <img src="images/benefitService.jpg" class="img-fluid rounded" alt="">
                 </div>
                 <div class="col-md-7">
                     <div class="process">

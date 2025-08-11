@@ -20,6 +20,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
@@ -82,7 +83,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/carousel-img.jpg" class="img-fluid" alt="Image">
+                    <img src="images/carousel2.jpg" class="img-fluid" alt="Image">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-primary text-uppercase mb-3">Building Dreams to Reality</h4>
@@ -94,12 +95,12 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/carousel-img1-jpg.jpg" class="img-fluid" alt="Image">
+                    <img src="images/carousel3.jpg" class="img-fluid" alt="Image">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-primary text-uppercase mb-3">Building Dreams to Reality</h4>
                             <h1 class="display-1 text-capitalize text-primary mb-3">Projects Corner</h1>
-                            <p class="mx-md-5 fs-4 px-4 mb-5 text-primary">Final Year Projects BTech,MTech and MCA</p>
+                            <p class="mx-md-5 fs-4 px-4 mb-5 text-white">Final Year Projects BTech,MTech and MCA</p>
                             <div class="d-flex align-items-center justify-content-center">
                             </div>
                         </div>
@@ -109,9 +110,9 @@
                     <img src="images/carousel-img3.jpg" class="img-fluid" alt="Image">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-primary text-uppercase mb-3">Building Dreams to Reality</h4>
-                            <h1 class="display-1 text-capitalize text-primary mb-3">Projects Corner</h1>
-                            <p class="mx-md-5 fs-4 px-4 mb-5 text-primary">Final Year Projects BTech,MTech and MCA</p>
+                            <h4 class="text-white text-uppercase mb-3">Building Dreams to Reality</h4>
+                            <h1 class="display-1 text-capitalize text-white mb-3">Projects Corner</h1>
+                            <p class="mx-md-5 fs-4 px-4 mb-5 text-white">Final Year Projects BTech,MTech and MCA</p>
                             <div class="d-flex align-items-center justify-content-center">
                             </div>
                         </div>
@@ -141,7 +142,7 @@
             </div>
             <div class="row g-4">
                 <div class="col-lg-6">
-                    <div class="services-item bg-light border-4 border-start border-end border-primary rounded p-4">
+                    <div class="services-item bg-light border-4  border-end border-primary rounded p-4">
                         <div class="row align-items-center">
                             <div class="col-8">
                                 <div class="services-content text-end">
@@ -265,6 +266,57 @@
         </div>
     </div>
     <!-- About End -->
+     <!-- Why Choose Us  -->
+       <div class="container-fluid bg-light py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-uppercase" style="color: #474ea9;">Why Choose Us</h4>
+                    <h1 class="display-5 text-capitalize mb-3">Projectscorner Key Features</h1>
+                </div>
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-card text-center px-4 py-5">
+                            <div class="icon-circle mx-auto mb-4">
+                                <i class="fas fa-users fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3" style="color: #474ea9;">Experienced Team</h5>
+                            <p>Our team consists of experienced professionals and experts in various fields, dedicated to providing guidance, mentorship, and support to students and researchers.</p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-card text-center px-4 py-5">
+                            <div class="icon-circle mx-auto mb-4">
+                                <i class="fas fa-handshake fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3" style="color: #474ea9;">Industry Partnerships</h5>
+                            <p>We collaborate with industry partners and academic institutions to enhance our offerings and ensure the relevance and quality of our services.</p>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-card text-center px-4 py-5">
+                            <div class="icon-circle mx-auto mb-4">
+                                <i class="fas fa-lightbulb fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3" style="color: #474ea9;">Innovation & Excellence</h5>
+                            <p>We are committed to fostering innovation and excellence in everything we do, continuously striving to exceed expectations and deliver exceptional results.</p>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-card text-center px-4 py-5">
+                            <div class="icon-circle mx-auto mb-4">
+                                <i class="fas fa-users-cog fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3" style="color: #474ea9;">Diversity & Inclusion</h5>
+                            <p>We embrace diversity and inclusion, recognizing the value of different perspectives and experiences in driving innovation and creativity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- Appointment Start -->
     <div class="container-fluid appointment py-5">
         <!-- Counter Start -->
@@ -374,8 +426,8 @@
                                     <img src="images/logo.png" class="img-fluid rounded-circle" alt="">
                                 </div>
                                 <div class="text-center">
-                                    <h4 class="mb-2 text-light">Sneha</h4>
-                                    <p class="m-0 text-light">BITS</p>
+                                    <h4 class="mb-2 text-light">Sneha </h4><p class="m-0 text-light">BITS</p>
+                                    
                                 </div>
                             </div>
                         </div>
