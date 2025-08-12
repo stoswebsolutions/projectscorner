@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <title>IEEE Projects | Projects Corner - Android IEEE Projects</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content=" IEEE, IEEE projects, projects, IEEE projects for BTech students, IEEE projects for MTech students, IEEE projects for MCA students, IEEE standard projects in Python, IEEE standard projects in Java, IEEE standard projects in .NET, IEEE standard projects in MATLAB, Final year IEEE projects, Academic IEEE projects online, IEEE projects with source code, source code, BTech, MTech, MCA students, Python, Java, .NET & MATLAB, academic projects" name="keywords">
+    <meta content="IEEE projects for BTech, MTech & MCA students in Python, Java, .NET & MATLAB. Get latest IEEE standard academic projects with source code & docs" name="description">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
     <!-- Google Web Fonts -->
